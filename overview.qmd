@@ -3,7 +3,7 @@ title: "Overview"
 editor: visual
 ---
 
-## Overview
+## Introduction
 
 Land cover classification is a commonly used application area of digital image analysis.
 
