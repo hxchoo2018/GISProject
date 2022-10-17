@@ -1,9 +1,23 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "GISProject Yay",
+    "objectID": "overview.html",
+    "href": "overview.html",
+    "title": "Overview",
     "section": "",
-    "text": "To learn more about Quarto websites visit https://quarto.org/docs/websites.\n{Welcome to our GIS Project website}"
+    "text": "Land cover classification is a commonly used application area of digital image analysis."
+  },
+  {
+    "objectID": "overview.html#literature-review",
+    "href": "overview.html#literature-review",
+    "title": "Overview",
+    "section": "Literature review",
+    "text": "Literature review\nIn this project, the follow articles will be reviewed."
+  },
+  {
+    "objectID": "overview.html#objectives",
+    "href": "overview.html#objectives",
+    "title": "Overview",
+    "section": "Objectives",
+    "text": "Objectives\nThis objectives of this project are as follows:\n\ntest\n\nTest"
   }
 ]

@@ -1,0 +1,20 @@
+---
+title: "Overview"
+editor: visual
+---
+
+## Overview
+
+Land cover classification is a commonly used application area of digital image analysis.
+
+## Literature review
+
+In this project, the follow articles will be reviewed.
+
+## Objectives
+
+This objectives of this project are as follows:
+
+-   test
+
+[Test](https://hxchoo2018-gisproject.netlify.app/)
