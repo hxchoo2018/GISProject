@@ -3,3 +3,5 @@ title: "About"
 ---
 
 ## About the team
+
+![](images/team/tskam.jpg){width="332"}

@@ -7,6 +7,18 @@ editor: visual
 
 Land cover classification is a commonly used application area of digital image analysis.
 
+## Motivations
+
+The government have decided to merge 14 primary schools, six secondary schools, and eight junior colleges in 2019.
+
+This is because:
+
+-   Declining birth rates resulted in a decline in students entering post-secondary institutions
+
+-   Low enrollment creates challenges to offer a wide range of subject combinations, educational programmes and co-curricular activities (CCAs).
+
+-   Increase interest to attend polytechnics instead of junior college.
+
 ## Project Objectives
 
 This objectives of this project are as follows:
