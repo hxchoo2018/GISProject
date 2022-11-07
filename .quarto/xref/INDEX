@@ -10,5 +10,17 @@
   },
   "overview.qmd": {
     "overview.html": "7229fc6b"
+  },
+  "methodology.qmd": {
+    "methodology.html": "c43b7413"
+  },
+  "analysis.qmd": {
+    "analysis.html": "2b3ca07b"
+  },
+  "findings.qmd": {
+    "findings.html": "8e7f66d6"
+  },
+  "lessonlearnt.qmd": {
+    "lessonlearnt.html": "7dab616c"
   }
 }

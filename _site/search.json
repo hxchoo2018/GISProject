@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "lessonlearnt.html",
+    "href": "lessonlearnt.html",
+    "title": "GISProject",
+    "section": "",
+    "text": "TESTEST"
+  },
+  {
     "objectID": "overview.html",
     "href": "overview.html",
     "title": "Overview",
@@ -7,17 +14,17 @@
     "text": "Land cover classification is a commonly used application area of digital image analysis."
   },
   {
-    "objectID": "overview.html#literature-review",
-    "href": "overview.html#literature-review",
+    "objectID": "overview.html#project-objectives",
+    "href": "overview.html#project-objectives",
     "title": "Overview",
-    "section": "Literature review",
-    "text": "Literature review\nIn this project, the follow articles will be reviewed."
+    "section": "Project Objectives",
+    "text": "Project Objectives\nThis objectives of this project are as follows:\n\ntest\n\nTest"
   },
   {
-    "objectID": "overview.html#objectives",
-    "href": "overview.html#objectives",
+    "objectID": "overview.html#data-sources",
+    "href": "overview.html#data-sources",
     "title": "Overview",
-    "section": "Objectives",
-    "text": "Objectives\nThis objectives of this project are as follows:\n\ntest\n\nTest"
+    "section": "Data Sources",
+    "text": "Data Sources\n\n\n\nData Name\nData Format\nSource"
   }
 ]

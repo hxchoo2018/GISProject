@@ -16,8 +16,6 @@ website:
       - href: lessonlearnt.qmd
         text: Lessons Learnt
     right:
-      - href: index.qmd
-        text: Home
       - href: about.qmd
         text: About
 
