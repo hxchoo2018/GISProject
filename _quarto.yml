@@ -5,18 +5,21 @@ website:
   title: "GISProject"
   navbar:
     left:
-      - href: overview.html
-        text: Overviwe
+      - href: overview.qmd
+        text: Overview
       - href: methodology.qmd
         text: Methodology
       - href: analysis.qmd
         text: Analysis
-      - href: findings.
+      - href: findings.qmd
         text: Results & Discussion
+      - href: lessonlearnt.qmd
+        text: Lessons Learnt
     right:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
 
 format:
   html:
