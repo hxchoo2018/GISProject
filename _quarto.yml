@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "GISProject"
+  title: "G2-3"
   navbar:
     left:
       - href: overview.qmd
@@ -16,6 +16,8 @@ website:
       - href: lessonlearnt.qmd
         text: Lessons Learnt
     right:
+      - href: overview.qmd
+        text: Overview
       - href: about.qmd
         text: About
 
