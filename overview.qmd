@@ -10,6 +10,8 @@ Singapore is well known for its high quality of education in the world, ranking 
 \
 However, in 2017, the Ministry of Education (MOE) has announced 14 pairs of schools will be merged by 2019,with the already limited number of Junior Colleges (JC) also included. The reason behind this merger is due to Singapore's declining birth rate (4 Pairs of JCs to Merge as Student Numbers Shrink; 14 Primary and 6 Secondary Schools Also Affected, 2017). The decline of birth rates affects the JC intake, which is expected to drop by a fifth, going from 16,000 in 2010 to 12,800 in 2019. This means some Junior College's intake could fall to as low as 200 or 300 over the next few years. MOE also took into consideration to ensure the quality of the range of education programmes and co-curricular activities is maintained. Thus the merger/closure of JC would allow resources to be better diverted and utilised in more appropriate situations.
 
+![](images/mergers.jpg){width="315"}
+
 ## Motivations
 
 Our group has decided to focus on the closure/merger of Junior Colleges because there are only a limited number of Junior Colleges, 22+4, in Singapore which offer either a 2-years GCE Advanced Level Programme or a 3-year International Baccalaureate Programme.

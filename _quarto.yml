@@ -7,6 +7,8 @@ website:
     left:
       - href: overview.qmd
         text: Overview
+      - href: dataprep.qmd
+        text: Data Preparation
       - href: methodology.qmd
         text: Methodology
       - href: analysis.qmd
