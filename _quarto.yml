@@ -13,9 +13,7 @@ website:
         text: Analysis
       - href: lessonlearnt.qmd
         text: Lessons Learnt
-    right:
-      - href: overview.qmd
-        text: Overview
+
 
     pinned: True
 

@@ -91,11 +91,6 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./lessonlearnt.html">Lessons Learnt</a>
   </li>  
 </ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./overview.html">Overview</a>
-  </li>  
-</ul>
               <div id="quarto-search" class="" title="Search"></div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
@@ -106,15 +101,56 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#methodology" id="toc-methodology" class="nav-link active" data-scroll-target="#methodology">Methodology</a>
+  <ul class="collapse">
+  <li><a href="#filtering-tertiary-level-schools" id="toc-filtering-tertiary-level-schools" class="nav-link" data-scroll-target="#filtering-tertiary-level-schools">1. Filtering tertiary level schools</a></li>
+  <li><a href="#analytical-hexagon" id="toc-analytical-hexagon" class="nav-link" data-scroll-target="#analytical-hexagon">2. Analytical Hexagon</a></li>
+  <li><a href="#accessibility-analysis" id="toc-accessibility-analysis" class="nav-link" data-scroll-target="#accessibility-analysis">3. Accessibility Analysis</a></li>
+  <li><a href="#ease-of-access-to-mrt-lrt" id="toc-ease-of-access-to-mrt-lrt" class="nav-link" data-scroll-target="#ease-of-access-to-mrt-lrt">4. Ease of Access to MRT &amp; LRT</a></li>
+  <li><a href="#ease-of-access-to-bus-stops" id="toc-ease-of-access-to-bus-stops" class="nav-link" data-scroll-target="#ease-of-access-to-bus-stops">5. Ease of Access to Bus Stops</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
 
+<section id="methodology" class="level1">
+<h1>Methodology</h1>
+<section id="filtering-tertiary-level-schools" class="level2">
+<h2 class="anchored" data-anchor-id="filtering-tertiary-level-schools">1. Filtering tertiary level schools</h2>
+<p>As the General-Information-of-Schools dataset also includes Primary and Secondary schools, we filtered the data to only include “Junior Colleges” and “Mixed Levels”.</p>
+</section>
+<section id="analytical-hexagon" class="level2">
+<h2 class="anchored" data-anchor-id="analytical-hexagon">2. Analytical Hexagon</h2>
+<p>To normalize the geography for mapping and reduce the issue of irregularly shaped polygons, a hexagon layer is created with the shape of MasterPlan 14 using the “Create Grids” function.</p>
+<p>This aims to convert the polygon features of MasterPlan 14 into a point feature to run for accessibility analysis.</p>
+</section>
+<section id="accessibility-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="accessibility-analysis">3. Accessibility Analysis</h2>
+<p>We ran Origin-Distance Matrix by QNEAT3 using the hexagon layer and location of tertiary level school to calculate the distance between hexagon centroids and junior colleges.</p>
+<p>The result layer was categorised by a cloropleth map.</p>
+<p><img src="images/photo_2022-11-08_01-57-25.jpg" class="img-fluid" width="469"></p>
+</section>
+<section id="ease-of-access-to-mrt-lrt" class="level2">
+<h2 class="anchored" data-anchor-id="ease-of-access-to-mrt-lrt">4. Ease of Access to MRT &amp; LRT</h2>
+<p>Our group decided on a 1km buffer region as an appropriate distance to measure ease of accessibility. Thus, using the Buffer function of QGIS, a dissolved buffer region of 1km around the Junior College is created.</p>
+<p>We then clip the LRT and MRT exits layer from data.gov.sg that are within the 1km buffer region.</p>
+</section>
+<section id="ease-of-access-to-bus-stops" class="level2">
+<h2 class="anchored" data-anchor-id="ease-of-access-to-bus-stops">5. Ease of Access to Bus Stops</h2>
+<p>To get location of bus stops around Singapore, it is extracted from OpenStreetMap with Geofabrik. The layer is clipped to be within Singapore and filtered to only include bus stops.</p>
+<p>We then clip the bus stop layer that are within the 1km buffer region.</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
