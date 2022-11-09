@@ -11,27 +11,27 @@
     "href": "overview.html",
     "title": "Overview",
     "section": "",
-    "text": "Land cover classification is a commonly used application area of digital image analysis."
+    "text": "Singapore is well known for its high quality of education in the world, ranking higher than many other countries. In 2018, the Organisation for Economic Cooperation and Development (OECD) conducted a Global Competence test, as part of the Programme for International Student Assessment (PISA). Singapore students, aged 15 years old, claimed a top spot in the international test, scoring an average of 576 marks. Not only so, about 46 per cent of the Singapore students who took the test achieved the highest global competency proficiency levels (Singapore’s 15-Year-Olds Top OECD’s Pisa Global Competence Test, 2020). This clearly supports the fact that Singapore’s Education System has topped the education ranking and is looked up upon by many parents wishing to send their children into Singapore’s Education System.\n\nHowever, in 2017, the Ministry of Education (MOE) has announced 14 pairs of schools will be merged by 2019,with the already limited number of Junior Colleges (JC) also included. The reason behind this merger is due to Singapore’s declining birth rate (4 Pairs of JCs to Merge as Student Numbers Shrink; 14 Primary and 6 Secondary Schools Also Affected, 2017). The decline of birth rates affects the JC intake, which is expected to drop by a fifth, going from 16,000 in 2010 to 12,800 in 2019. This means some Junior College’s intake could fall to as low as 200 or 300 over the next few years. MOE also took into consideration to ensure the quality of the range of education programmes and co-curricular activities is maintained. Thus the merger/closure of JC would allow resources to be better diverted and utilised in more appropriate situations."
   },
   {
     "objectID": "overview.html#motivations",
     "href": "overview.html#motivations",
     "title": "Overview",
     "section": "Motivations",
-    "text": "Motivations\nThe government have decided to merge 14 primary schools, six secondary schools, and eight junior colleges in 2019.\nThis is because:\n\nDeclining birth rates resulted in a decline in students entering post-secondary institutions\nLow enrollment creates challenges to offer a wide range of subject combinations, educational programmes and co-curricular activities (CCAs).\nIncrease interest to attend polytechnics instead of junior college."
+    "text": "Motivations\nOur group has decided to focus on the closure/merger of Junior Colleges because there are only a limited number of Junior Colleges, 22+4, in Singapore which offer either a 2-years GCE Advanced Level Programme or a 3-year International Baccalaureate Programme.\nThese pre-tertiary schools prepare students for the admission to Universities through a rigorous curriculum. It is also important to note that admission to Junior Colleges is not the only path to Universities. Singapore also has Polytechnics that offer a variety of vocational degrees to students who prefer a more flexible studying programme.\nHowever, there is still a stereotypical thinking that students who admit to Junior Colleges, typically have a higher admission rate as compared to those who go by the Polytechnic path. Henceforth, the announcement of merger/closure of Junior Colleges would result in more competitions between students who are looking to enter Junior Colleges. \nHence, our project aims to discover how the closure or merger of Junior Colleges and Mixed Institutions at the tertiary level would affect the equity of access. We will be evaluating the shortest distance and time taken between demand points and Junior Colleges (as supply points) as well as the number, time taken and distance of available Light Rapid Transit (LRT) and Mass Rapid Transit (MRT) stations within the 1 km buffer region of the schools. The reason why we considered only public transport, specifically MRT trains is because more people are taking trains and buses to commute to work as compared with a decade ago and only MRT trains datasets are available. We will then determine whether there should be a re-opening of those Junior Colleges which were previously merged, as a possible suggestion after taking all the factors into account."
   },
   {
-    "objectID": "overview.html#project-objectives",
-    "href": "overview.html#project-objectives",
+    "objectID": "overview.html#objectives",
+    "href": "overview.html#objectives",
     "title": "Overview",
-    "section": "Project Objectives",
-    "text": "Project Objectives\nThis objectives of this project are as follows:\n\ntest\n\nTest"
+    "section": "Objectives",
+    "text": "Objectives\n\nEvaluate how the closure of such schools affect the accessibility by calculating the travel time and distance from each origin (hexagons) to each destinations\nEvaluate the number of MRT and LRT stations within the 1km buffer region \n\n\nTest"
   },
   {
     "objectID": "overview.html#data-sources",
     "href": "overview.html#data-sources",
     "title": "Overview",
     "section": "Data Sources",
-    "text": "Data Sources\n\n\n\nData Name\nData Format\nSource"
+    "text": "Data Sources\n\n\n\n\n\n\n\n\nData Name\nData Format\nSource\n\n\n\n\nMP14_Subzone_No_Sea_PL\nESRI Shapefile\nhttps://data.gov.sg/dataset/master-plan-2014-subzone-boundary-no-sea\n\n\nGeneral-Information-Of-Schools\nMicrosoft Excel Comma Separated Values File\nhttps://data.gov.sg/dataset/school-directory-and-information\n\n\nLta-Mrt-Station-Exit\nKML File\nhttps://data.gov.sg/dataset/lta-mrt-station-exit\n\n\nMalaysia-Singapore-Brunei-Latest-Free\nESRI Shapefile\nhttps://download.geofabrik.de/asia/"
   }
 ]

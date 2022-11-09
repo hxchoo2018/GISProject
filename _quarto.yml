@@ -11,15 +11,13 @@ website:
         text: Methodology
       - href: analysis.qmd
         text: Analysis
-      - href: findings.qmd
-        text: Results & Discussion
       - href: lessonlearnt.qmd
         text: Lessons Learnt
     right:
       - href: overview.qmd
         text: Overview
-      - href: about.qmd
-        text: About
+
+    pinned: True
 
 format:
   html:
