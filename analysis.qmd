@@ -40,7 +40,7 @@ As such we can conclude that the merger of Junior Colleges does not really have 
 
 ### c. Analysis and Comparison
 
-It could be seen that all Junior Colleges have at least one or more bus stops within the 1 km buffer. Since it is noted that accessibility is closely related with the economic and social opportunities as well as development of that area, it is clear that Singapore\'s bus services could be deemed as quite well developed. This is because Singapore\'s bus services have been around since 1925, nearly a century ago.
+It could be seen that all Junior Colleges have at least one or more bus stops within the 1 km buffer. Since it is noted that accessibility is closely related with the economic and social opportunities as well as development of that area, it is clear that Singapore's bus services could be deemed as quite well developed. This is because Singapore's bus services have been around since 1925, nearly a century ago.
 
 ![](images/Bus%20Stops%20Comparison.jpg)
 
@@ -51,6 +51,7 @@ As seen from the region circled in blue and red, before merger, one of the Junio
 ## 3. Comparison Feature: MRT
 
 ### a. Before Merger
+
 ![](images/MRT%20Before%20Merger.jpg){width="566"}
 
 ### b. After Merger
@@ -67,6 +68,37 @@ Comparing both figures, the area circled in blue suggests that the Junior Colleg
 
 ## 4. Comparison Feature: Walking Distance
 
-This is a picture of Anderson Serangoon Junior College within 1 kilometre walking radius with a walking speed of 5m/s. There is also the fastest walking path of 6.3 minutes of walking time from the school to Yio Chu Kang MRT station.
+The various walking distances and speeds are further analysed after the merger with all 8 JCs. In no order of merit, they are Tampines Meridian JC (TMJC), Yishun Innova JC (YIJC), Pioneer Jurong JC (JPJC), and Anderson Serangoon JC (ASRJC). The QNEAT routing shortest path plugin has been used to aid our analysis.
 
-![](images/Anderson%20JC.jpg)
+### a. Anderson Serangoon JC
+
+![](images/Anderson%20Serangoon%20JC.jpg){width="586"}
+
+From Anderson Serangoon JC, we can see that there is Yio Chu Kang MRT station and the bus interchange is in the near vicinity of about 378.57meters, it is decently near to the JC and is within walking distance. Additionally, there are bus stops situated right in front of the JC, which is as close as 238.53 metres of walking distance. Therefore, for this particular JC after the merger, the accessibility should still be fairly great.
+
+### b. Jurong Pioneer JC
+
+![](images/Jurong%20Pioneer%20JC.jpg){width="590"}\
+
+
+In the west, the two JCs merged were Jurong JC and Pioneer JC, with the final location of Pioneer JC, situated near Bukit Panjang. From the analysis from the print layout above, it seems that the JC is not near any MRT stations, noting that the walking distance to the two nearest stations - Choa Chu Kang MRT and Bukit Panjang MRT is approximately 1.23 kilometres and 1 kilometre respectively. Unfortunately, walking distance to the LRT stations aren't much better, as Keat Hong LRT station is a whopping 1.33 kilometres from the school and Phoenix is about 911 metres away. Therefore, if a student does not want to walk the humongous distance to the subway networks, there are bus stops situated quite far away as the nearest is about 479 metres away from the JC. With the students coming from different parts of the west, the accessibility here may need to be reviewed and hopefully improved.
+
+### c. Yishun Innova JC
+
+![](images/Yishun%20Innova%20JC.jpg){width="585"}
+
+For the location of the newly merged Yishun Innova JC, it seems that the walking distance is closer towards Yishun MRT ( 853.4 metres ) than to Khatib MRT ( 1.007 kilometres ) as the walking route cuts through a park. It is notable that there are also a pair of bus stops to complement the transport network. The nearest bus stop is in front of the JC with a mere distance of 132.41 metres only where trunk/feeder services can be utilised by students and staff. Students do not have to walk far unlike JPJC.
+
+### 4. Tampines Meridian JC
+
+### 
+![](images/TMJC.jpg)
+
+With the final merged JC in the east, from the merger of Tampines JC and Meridian JC, it is merged to the location of the western portion of Pasir Ris. Unfortunately, based on our analysis, it seems that the nearest operational MRT station, Pasir Ris MRT on the East-West line, is situated 1.337 kilometres of walking distance away from TMJC. This is ludicrously far from practically walkable for students to the JC. However, we can see that from a 150 metres buffer zone, there are many bus stops catering to the JC.
+
+It is noted that with the upcoming Cross-Island MRT line, there is one that may be potentially near TMJC's vicinity - Tampines North MRT station that is still under construction/planning. However, after a walking-distance analysis, it seems that according to the existing road network, it is still a ludicrous 1.88 kilometres away from the upcoming station. This is likely the infrastructure may not have been developed yet as the station has not been fully constructed yet as the walking routes make many redundant turns according to the prevailing road/path networks. We hope that the accessibility will be improved as there are only bus stops surrounding the JC as we believe many students and staff will benefit from these transport developments.
+
+###  5. Conclusion
+
+To conclude, the merged locations for some JCs have better locations, and we hope that the Land Transport Authority will review the transport nodes and add some infrastructure such as overhead bridges or overpasses to aid in transport.
+

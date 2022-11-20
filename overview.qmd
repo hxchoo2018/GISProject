@@ -10,7 +10,7 @@ Singapore is well known for its high quality of education in the world, ranking 
 \
 However, in 2017, the Ministry of Education (MOE) has announced 14 pairs of schools will be merged by 2019,with the already limited number of Junior Colleges (JC) also included. The reason behind this merger is due to Singapore's declining birth rate (4 Pairs of JCs to Merge as Student Numbers Shrink; 14 Primary and 6 Secondary Schools Also Affected, 2017). The decline of birth rates affects the JC intake, which is expected to drop by a fifth, going from 16,000 in 2010 to 12,800 in 2019. This means some Junior College's intake could fall to as low as 200 or 300 over the next few years. MOE also took into consideration to ensure the quality of the range of education programmes and co-curricular activities is maintained. Thus the merger/closure of JC would allow resources to be better diverted and utilised in more appropriate situations.
 
-![](images/mergers.jpg){width="315"}
+![](images/mergers.jpg){width="400"}
 
 We will be focusing on the four tertiary Junior Colleges like Anderson JC, Yishun JC, Meridian JC and Pioneer JC as they are sites after the Junior College merger.
 
@@ -30,10 +30,14 @@ Hence, our project aims to discover how the closure or merger of Junior Colleges
 
 2.  Evaluate the number of MRT and LRT stations within the 1km buffer region 
 
+## Project Timeline
+
+![](images/Project%20Timeline.jpg)
+
 ## Data Sources
 
 | Data Name                             | Data Format                                 | Source                                                               |
-|--------------------|------------------|-----------------------------------|
+|-------------------|---------------------|--------------------------------|
 | MP14_Subzone_No_Sea_PL                | ESRI Shapefile                              | https://data.gov.sg/dataset/master-plan-2014-subzone-boundary-no-sea |
 | General-Information-Of-Schools        | Microsoft Excel Comma Separated Values File | https://data.gov.sg/dataset/school-directory-and-information         |
 | Lta-Mrt-Station-Exit                  | KML File                                    | https://data.gov.sg/dataset/lta-mrt-station-exit                     |
