@@ -111,7 +111,28 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#analysis" id="toc-analysis" class="nav-link active" data-scroll-target="#analysis">Analysis</a></li>
+  <li><a href="#results-and-analysis" id="toc-results-and-analysis" class="nav-link active" data-scroll-target="#results-and-analysis">Results and Analysis</a>
+  <ul class="collapse">
+  <li><a href="#accessibility-choropleth-hexagon-layer" id="toc-accessibility-choropleth-hexagon-layer" class="nav-link" data-scroll-target="#accessibility-choropleth-hexagon-layer">1. Accessibility Choropleth Hexagon Layer</a>
+  <ul class="collapse">
+  <li><a href="#a.-before-merger" id="toc-a.-before-merger" class="nav-link" data-scroll-target="#a.-before-merger">a. Before Merger</a></li>
+  <li><a href="#b.-after-merger" id="toc-b.-after-merger" class="nav-link" data-scroll-target="#b.-after-merger">b. After Merger</a></li>
+  <li><a href="#c.-comparison" id="toc-c.-comparison" class="nav-link" data-scroll-target="#c.-comparison">c.&nbsp;Comparison</a></li>
+  </ul></li>
+  <li><a href="#comparison-feature-bus-stops" id="toc-comparison-feature-bus-stops" class="nav-link" data-scroll-target="#comparison-feature-bus-stops">2. Comparison Feature: Bus Stops</a>
+  <ul class="collapse">
+  <li><a href="#a.-before-merger-1" id="toc-a.-before-merger-1" class="nav-link" data-scroll-target="#a.-before-merger-1">a. Before Merger</a></li>
+  <li><a href="#b.-after-merger-1" id="toc-b.-after-merger-1" class="nav-link" data-scroll-target="#b.-after-merger-1">b. After Merger</a></li>
+  <li><a href="#c.-analysis-and-comparison" id="toc-c.-analysis-and-comparison" class="nav-link" data-scroll-target="#c.-analysis-and-comparison">c.&nbsp;Analysis and Comparison</a></li>
+  </ul></li>
+  <li><a href="#comparison-feature-mrt" id="toc-comparison-feature-mrt" class="nav-link" data-scroll-target="#comparison-feature-mrt">3. Comparison Feature: MRT</a>
+  <ul class="collapse">
+  <li><a href="#a.-before-merger-2" id="toc-a.-before-merger-2" class="nav-link" data-scroll-target="#a.-before-merger-2">a. Before Merger</a></li>
+  <li><a href="#b.-after-merger-2" id="toc-b.-after-merger-2" class="nav-link" data-scroll-target="#b.-after-merger-2">b. After Merger</a></li>
+  <li><a href="#c.-analysis-and-comparison-1" id="toc-c.-analysis-and-comparison-1" class="nav-link" data-scroll-target="#c.-analysis-and-comparison-1">c.&nbsp;Analysis and Comparison</a></li>
+  </ul></li>
+  <li><a href="#comparison-feature-walking-distance" id="toc-comparison-feature-walking-distance" class="nav-link" data-scroll-target="#comparison-feature-walking-distance">4. Comparison Feature: Walking Distance</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -120,10 +141,72 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="analysis" class="level1">
-<h1>Analysis</h1>
+<section id="results-and-analysis" class="level1">
+<h1>Results and Analysis</h1>
+<p>To better identify the differences, we will be doing a comparison of Junior Colleges before the 2019 merger and after merger.</p>
+<section id="accessibility-choropleth-hexagon-layer" class="level2">
+<h2 class="anchored" data-anchor-id="accessibility-choropleth-hexagon-layer">1. Accessibility Choropleth Hexagon Layer</h2>
+<section id="a.-before-merger" class="level3">
+<h3 class="anchored" data-anchor-id="a.-before-merger">a. Before Merger</h3>
+<p><img src="images/Accessibility%20Before%20Merger.png" class="img-fluid"></p>
+<p><img src="images/Accessibility%20Before%20Merger%20Histogram.jpg" class="img-fluid" width="547"></p>
+</section>
+<section id="b.-after-merger" class="level3">
+<h3 class="anchored" data-anchor-id="b.-after-merger">b. After Merger</h3>
+<p><img src="images/Accessibility%20After%20Merger.jpg" class="img-fluid"></p>
+<p>From the diagram, taking into account all the roads, we used QNEAT3 to analyse the accessibility. Choropleth map is then used for better comparison of distance between each individual hexagon to each Junior Colleges. The shortest distance between any of the hexagons selected as origin and merged Junior Colleges as the destination point is 256.6 metres, rounding up to 257 metres.</p>
+<p><img src="images/Accessibility%20After%20Merger%20Histogram.jpg" class="img-fluid" width="485"></p>
+<p>Most of the hexagons are relatively in red or in different shades of red. This possibly suggests that most Junior Colleges are not that accessible as the shortest distance ranges from at least 6132 metres to 68963 metres.</p>
+</section>
+<section id="c.-comparison" class="level3">
+<h3 class="anchored" data-anchor-id="c.-comparison">c.&nbsp;Comparison</h3>
+<p><img src="images/Accesibility%20Comparison.jpg" class="img-fluid"></p>
+<p>Comparing both hexagons, we have identified the following differences. Few hexagons, only 7, in 2019 before merger are of a darker shade as compared after merger. Also, the closure of those Junior Colleges are mostly within 10 hexagons, which is about 2500 metres apart.</p>
+<p>As such we can conclude that the merger of Junior Colleges does not really have a huge impact on accessibility. Comparing the histograms, it could be said that the general trend of the histograms are mostly similar, ranging from around 6100 metres to 69000 metres.</p>
+</section>
+</section>
+<section id="comparison-feature-bus-stops" class="level2">
+<h2 class="anchored" data-anchor-id="comparison-feature-bus-stops">2. Comparison Feature: Bus Stops</h2>
+<section id="a.-before-merger-1" class="level3">
+<h3 class="anchored" data-anchor-id="a.-before-merger-1">a. Before Merger</h3>
+<p><img src="images/Bus%20Stops%20Before%20Merger.jpg" class="img-fluid"></p>
+</section>
+<section id="b.-after-merger-1" class="level3">
+<h3 class="anchored" data-anchor-id="b.-after-merger-1">b. After Merger</h3>
+<p><img src="images/Bus%20Stops%20after%20Merger.jpg" class="img-fluid"></p>
+</section>
+<section id="c.-analysis-and-comparison" class="level3">
+<h3 class="anchored" data-anchor-id="c.-analysis-and-comparison">c.&nbsp;Analysis and Comparison</h3>
+<p>It could be seen that all Junior Colleges have at least one or more bus stops within the 1 km buffer. Since it is noted that accessibility is closely related with the economic and social opportunities as well as development of that area, it is clear that Singapore's bus services could be deemed as quite well developed. This is because Singapore's bus services have been around since 1925, nearly a century ago.</p>
+<p><img src="images/Bus%20Stops%20Comparison.jpg" class="img-fluid"></p>
+<p>The areas circled in yellow are areas of differences before (on the left) and after merger (on the right). We would be discussing only 2 of those areas (those circled in blue and red) since their 1 km buffer regions are overlapped.&nbsp;</p>
+<p>As seen from the region circled in blue and red, before merger, one of the Junior Colleges does not have that many bus stops within the 1 km buffer region as compared to the other. As such, the school that has lesser bus stops is being merged together with the one that has a higher number of bus stops within the buffer region. This could possibly suggest that the merger of schools has allowed schools to be more accessible as compared to before.&nbsp;</p>
+</section>
+</section>
+<section id="comparison-feature-mrt" class="level2">
+<h2 class="anchored" data-anchor-id="comparison-feature-mrt">3. Comparison Feature: MRT</h2>
+<section id="a.-before-merger-2" class="level3">
+<h3 class="anchored" data-anchor-id="a.-before-merger-2">a. Before Merger</h3>
+<p><img src="images/MRT%20Before%20Merger.jpg" class="img-fluid" width="566"></p>
+</section>
+<section id="b.-after-merger-2" class="level3">
+<h3 class="anchored" data-anchor-id="b.-after-merger-2">b. After Merger</h3>
+<p><img src="images/MRT%20After%20Merger.jpg" class="img-fluid" width="518"></p>
+</section>
+<section id="c.-analysis-and-comparison-1" class="level3">
+<h3 class="anchored" data-anchor-id="c.-analysis-and-comparison-1">c.&nbsp;Analysis and Comparison</h3>
+<p>On the other hand, not all Junior Colleges have MRT stations within the 1 km buffer region, particularly, schools that are near the Downtown area and South of Singapore tend to have more than 1 MRT station nearby. A possible reason could be because those Junior Colleges are near the Central Business District where most people would come down for food, entertainment &amp; Leisures and work. Since most people are situated there during normal day time, it is appropriate for the Government to have built that many MRT stations around.</p>
+<p><img src="images/MRT%20Comparison.jpg" class="img-fluid"></p>
+<p>Comparing both figures, the area circled in blue suggests that the Junior College that does not MRT within the 1 km buffer region is merged together with another school that has a closer MRT station. However, on the other hand, the regions circled in red seem to show that even if there is a MRT station within the 1 km buffer region, schools are still forced to be merged. This suggests a potential that the reason for certain schools being selected to be closed could be due to other factors such as availability of school resources.</p>
+</section>
+</section>
+<section id="comparison-feature-walking-distance" class="level2">
+<h2 class="anchored" data-anchor-id="comparison-feature-walking-distance">4. Comparison Feature: Walking Distance</h2>
+<p>This is a picture of Anderson Serangoon Junior College within 1 kilometre walking radius with a walking speed of 5m/s. There is also the fastest walking path of 6.3 minutes of walking time from the school to Yio Chu Kang MRT station.</p>
+<p><img src="images/Anderson%20JC.jpg" class="img-fluid"></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

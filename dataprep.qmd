@@ -1,1 +1,22 @@
+# Data Sources
 
+These are the data sources we used in our project.
+
+| Data Name                             | Data Format                                 | Source                                                               | Description                                                         |
+|------------|---------------|----------------|-------------------------------|
+| MP14_Subzone_No_Sea_PL                | ESRI Shapefile                              | https://data.gov.sg/dataset/master-plan-2014-subzone-boundary-no-sea | Sub-zone boundary of Singapore                                      |
+| General-Information-Of-Schools        | Microsoft Excel Comma Separated Values File | https://data.gov.sg/dataset/school-directory-and-information         | List of schools in Singapore ranging from Primary to Tertiary level |
+| Lta-Mrt-Station-Exit                  | KML File                                    | https://data.gov.sg/dataset/lta-mrt-station-exit                     | Point location of existing MRT exits in Singapore                   |
+| Malaysia-Singapore-Brunei-Latest-Free | ESRI Shapefile                              | https://download.geofabrik.de/asia/                                  | OpenStreetMap data of Singapore, Malaysia and Brunei                |
+
+# Additional Steps
+
+## 1. General Information of Schools
+
+As the data provided does not have coordinates, we used MMQGIS plugin "Geocode CSV with Web Service" to get geospatial mapping of the schools
+
+## 2. Malaysia-Singapore-Brunei-Latest-Free
+
+Only two shapefiles would be used: "**gis_osm_transport_a\_free_1**" and "**gis_osm_roads_free_1**".
+
+As the layers includes Malaysia and Brunei, the two layers are clipped to be within Singapore MP14 boundary.
