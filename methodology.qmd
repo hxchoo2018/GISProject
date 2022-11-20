@@ -2,17 +2,17 @@
 
 ## 1. Calculation using Origin-Destination Matrix (OD-Matrix)
 
-First we extract MasterPlan 14 Subzone (no sea) and export it into a GeoPackage. We also add in the education layer, after filtering Junior Colleges, Mixed Levels and Institutions, using the \'filter by expression\' function into QGIS and export this layer to GeoPackage.
+First we extract MasterPlan 14 Subzone (no sea) and export it into a GeoPackage. We also add in the education layer, after filtering Junior Colleges, Mixed Levels and Institutions, using the 'filter by expression' function into QGIS and export this layer to GeoPackage.
 
 The roads layer from the OSM data is also added onto the panel. The roads layer is then clipped together with MasterPlan 14, to get roads that are within Singapore. This newly created clipped layer is then exported as GeoPackage.
 
-A hexagon layer, with the shape of MasterPlan 14 is also created using the \'Create Grids\' function. The hexagon is then computed as a hexagon centroid so as to \'convert\' the polygon feature into a point feature which could then be runned by QNEAT3 for network analysis.
+A hexagon layer, with the shape of MasterPlan 14 is also created using the 'Create Grids' function. The hexagon is then computed as a hexagon centroid so as to 'convert' the polygon feature into a point feature which could then be runned by QNEAT3 for network analysis.
 
 After using QNEAT3 for accessibility analysis, we would obtain an Output OD Matrix which shows the shortest path which is then categorised by a choropleth map.
 
 ## 2. Calculation on number of nearest bus stops, LRT and MRT station within 1km buffer region
 
-A dissolved buffer region of 1 km with locations of Junior Colleges being the centre of the buffer region, using the \'buffer\' function and exported as GeoPackage.
+A dissolved buffer region of 1 km with locations of Junior Colleges being the centre of the buffer region, using the 'buffer' function and exported as GeoPackage.
 
 For bus stops, we would use the transport layer under OSM data, clip to filter transports within Singapore and further filter for bus stops. Lastly, to filter those bus stops within the 1 km buffer region.
 
@@ -42,7 +42,7 @@ Clip the LRT and MRT Exit (downloaded from data.gov) layer with the 1 km buffer 
 
 ### **2.1.2 Managing the Imported Data**
 
-1.  Create a new project folder called \"Subtheme1\" and create a new sub-folder called data.gov
+1.  Create a new project folder called "Subtheme1" and create a new sub-folder called data.gov
 
 2.  Unzip the newly downloaded data and place them into the sub-folder
 
@@ -66,7 +66,7 @@ Clip the LRT and MRT Exit (downloaded from data.gov) layer with the 1 km buffer 
 
 1.  Click on Layer \>Add Vector Layer 
 
-2.  Click on \"\...\" 
+2.  Click on "\..." 
 
 3.  Select the downloaded URA_MP14_SUBZONE_NO_SEA_PL shapefile from Subtheme1 folder\
 
@@ -88,7 +88,7 @@ Clip the LRT and MRT Exit (downloaded from data.gov) layer with the 1 km buffer 
 
 1.  Click on Layer \>Add Delimited Layer 
 
-2.  Click on \"\...\" 
+2.  Click on "\..." 
 
 3.  Select the downloaded general-information-of-schools from Subtheme1 folder\
 
@@ -102,7 +102,7 @@ Clip the LRT and MRT Exit (downloaded from data.gov) layer with the 1 km buffer 
 
 4.  Double click on Fields and Values and select mainlevel_code
 
-5.  Click on the \"=\" operator on the bottom left of the expression box
+5.  Click on the "=" operator on the bottom left of the expression box
 
 6.  Click on All Unique  and scroll down to select Mixed Levels
 
@@ -144,7 +144,7 @@ Notice that certain schools such as Maris Stella High School which does not offe
 
 4.  Double click on Fields and Values and select school_name
 
-5.  Click on the \"=\" operator on the bottom left of the expression box
+5.  Click on the "=" operator on the bottom left of the expression box
 
 6.  Click on All Unique  and scroll down to select Maris Stella High School
 
@@ -152,7 +152,7 @@ Notice that certain schools such as Maris Stella High School which does not offe
 
 8.  Click on Select Features and close the dialog window
 
-9.  Click on ![](https://lh4.googleusercontent.com/J4xnPsbkmz8oBGnolemXjkoz7mNn6vfmBOPuqCQRvTREGW_1_M9ZbokBivEHq4SVGm_yrNoO5B9onK_UKdQFRR1KDqcENohMGnsHGYLMSDeuWKgpp_BClC3lva-FZPjtaToq7qlGZ081I3Z_4VBMC9aDSdcz0zWeA1dQWC_AnFNC9KgHU8pJg37S5tsNrw) to invert the selection and close the attribute table\
+9.  Click on ![](images/invert.jpg){width="24" height="28"} to invert the selection and close the attribute table\
 
 \* Notice that only 22/25 of the features are being selected\
 
@@ -178,7 +178,7 @@ Notice that certain schools such as Maris Stella High School which does not offe
 
 1.  Click on Layer \>Add Vector Layer 
 
-2.  Click on \"\...\" 
+2.  Click on "\..." 
 
 3.  Select the downloaded gis_osm_roads_free_1 shapefile from Subtheme1 folder\
 
@@ -211,14 +211,17 @@ Notice that certain schools such as Maris Stella High School which does not offe
 
 4.  Double click on Fields and Values and select fclass
 
-5.  Click on the \"=\" operator on the bottom left of the expression box
+5.  Click on the "=" operator on the bottom left of the expression box
 
 6.  Click on All Unique  and scroll down to select motorway
 
 7.  Manually type in OR and repeat steps 4-6 for motorway_link, primary, primary_link, secondary, secondary_link, tertiary, tertiary_link, residential, trunk and trunk_link
 
-![](https://lh5.googleusercontent.com/ZE3VL1xLfF8NqNE93OZ2aQeVqGtd0OGtDe-j_EkR7EnWBVk8_vYv4uJUXc0EwJcka61eRUh2jV-O99rYA7-mxRKrogwCRN8pNt4nDeDJtP1H3fpjE8XrFlSqYEpYkKbI0AnMMWw9UVUv3k76_SO1UOWm6mkW5oCoZEnM8DJcOGXyWjCqKNQBnxSFN6dkKg)
+    ![](images/formula.jpg)
 
+```{=html}
+<!-- -->
+```
 8.  Click on Select Features and close the dialog window
 
 #### **2.2.4.4 Exporting the selected motor vehicle network as GeoPackage**
@@ -281,18 +284,16 @@ Now that all the motor vehicle network within Singapore is extracted, we will mo
 
 \* Repeat this step for Overlay Layer
 
-4.  Click Run and then Close to close the dialog window
+3.  Click Run and then Close to close the dialog window
 
-```{=html}
 <!-- -->
-```
-3.  Repeat the steps above to save Clipped virtual layer into GeoPackage and call the data layer as Hexagon
 
-4.  Remove the Clipper virtual layer, Grid layers from the Layer Panel
+4.  Repeat the steps above to save Clipped virtual layer into GeoPackage and call the data layer as Hexagon
+5.  Remove the Clipper virtual layer, Grid layers from the Layer Panel
 
 Your screen should look something similar to this.
 
-![](https://lh6.googleusercontent.com/eLC6XiK6TFDSd9axS59n3C2LcDyUv1siXCBu6_MyMxgVhY1lLA06D-rDb1TdZYjp73f35EL6xmlXo9WJSgB3z5Cml7-LzM3gcmjuuaVcF3HdUUn_VMCtQ7JAXex8K5J6eS1xkYijiuU8HTyMv6rX8mvy4vy2yn9b6puImqvgGdSu49S8uv6UGLePpNi14w)
+![](images/Clipped%20layer.jpg)
 
 In general, network analysis required the demand in a point feature. Hexagon, on the other hand, is a polygon feature. As such, we would have to compute the centroids of the hexagon.
 
@@ -314,9 +315,7 @@ In general, network analysis required the demand in a point feature. Hexagon, on
 
 Your screen should looks similar to this
 
-![](https://lh3.googleusercontent.com/tcX91ffRljCaPBzx47F70iZ40A5aZ4gnr6LvGeQ6emrMik_PtjFMnOaMCrHCCHcCpkP5rwyjciboLM2U8_dQ024K9TlMFZI9pU2k7VisgWhcNRMTNbhRu4Ejj3KfP8zJ58UclGph5E2dKUyTLHYk706sE2l7Ra7OZ7yuLK2qUa243Rx9J7-EWLMjF_6ZPg)
-
-	
+![](images/centroid.jpg)
 
 #### **2.2.6.1 Saving the Centroid Layer**
 
@@ -326,7 +325,7 @@ Your screen should looks similar to this
 
 ## **2.3 Accessibility Analysis**
 
-	This section, we will be performing network accessibility analysis by using QGIS Network Analysis Toolbox (QNEAT3) Plugin
+This section, we will be performing network accessibility analysis by using QGIS Network Analysis Toolbox (QNEAT3) Plugin
 
 ### **2.3.1 Installing QNEAT3 Plugin**
 
@@ -412,7 +411,7 @@ Next, use the SQL tool of QGIS to select destination points with the shortest di
 
 ### **2.3.4 Mapping Accessibility Values**
 
-	Use the mapping function of QGIS to show the distribution of accessibility to Junior College
+Use the mapping function of QGIS to show the distribution of accessibility to Junior College
 
 #### **2.3.4.1 Creating a Duplicate layer**
 
@@ -472,7 +471,7 @@ Before we can prepare the choropleth map, we need to join **acc_mixedjc** data t
 
 The choropleth map should like something like this.
 
-![](https://lh6.googleusercontent.com/Nd0x85X1oxP_rnC8VJwOlt_cVYPaT5A_a_Oi6AyvdJvsCfbr3eK23cxbWPwQBG0LejMeV9lReuU_Zfh9CNLS-WbydEnGSjMGrYKhq3U5Q51tvXEGhnCSakGfMfVaE63WF8U2m5uXgxuUdCTZmHo_mKoKbdmQneaLgJa1f02078u2IhVBlHW_FqrRkyixTA)\
+![](images/cloropleth.jpg)\
 
 ## **2.4 Repeat of steps for schools before the merger**
 
@@ -504,11 +503,11 @@ The choropleth map should like something like this.
 
 ### **2.5.2 Identifying bus stops within the buffer region**
 
-#### **2.5.2.1 Filtering bus stops** 
+#### **2.5.2.1 Filtering bus stops**
 
 1.  Click on **Layer \>Add Vector Layer**
 
-2.  Click on **\"\...\"**
+2.  Click on **"\..."**
 
 3.  Select the downloaded **gis_osm_transport_a\_free_1**  from Subtheme1 folder
 
@@ -518,7 +517,7 @@ The choropleth map should like something like this.
 
 6.  Double click on Fields and Values and select **fclass**
 
-7.  Click on the **\"=\"** operator on the bottom left of the expression box
+7.  Click on the **"="** operator on the bottom left of the expression box
 
 8.  Click on All Unique  and scroll down to select **bus**
 
@@ -562,15 +561,15 @@ The choropleth map should like something like this.
 
 ### **2.5.3 Identifying MRT stations within buffer region**
 
-#### **2.5.3.1 Importing MRT and LRT data** 
+#### **2.5.3.1 Importing MRT and LRT data**
 
 1.  Click on Layer \>Add Vector Layer 
 
-2.  Click on \"\...\" 
+2.  Click on "\..." 
 
 3.  Select the downloaded **lta-mrt-station-exit** from Subtheme1 folder
 
-4.  Remove extra fields and only keep \"fid\", \"STATION_NA\" and \"EXIT_CODE\"
+4.  Remove extra fields and only keep "fid", "STATION_NA" and "EXIT_CODE"
 
 5.  Save the layer as GeoPackage and call the data layer **SG -- MRT STATIONS**\
 
