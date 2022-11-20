@@ -12,6 +12,8 @@ However, in 2017, the Ministry of Education (MOE) has announced 14 pairs of scho
 
 ![](images/mergers.jpg){width="315"}
 
+We will be focusing on the four tertiary Junior Colleges like Anderson JC, Yishun JC, Meridian JC and Pioneer JC as they are sites after the Junior College merger.
+
 ## Motivations
 
 Our group has decided to focus on the closure/merger of Junior Colleges because there are only a limited number of Junior Colleges, 22+4, in Singapore which offer either a 2-years GCE Advanced Level Programme or a 3-year International Baccalaureate Programme.
@@ -25,15 +27,13 @@ Hence, our project aims to discover how the closure or merger of Junior Colleges
 ## Objectives
 
 1.  Evaluate how the closure of such schools affect the accessibility by calculating the travel time and distance from each origin (hexagons) to each destinations
-2.  Evaluate the number of MRT and LRT stations within the 1km buffer region 
 
-\
-[Test](https://hxchoo2018-gisproject.netlify.app/)
+2.  Evaluate the number of MRT and LRT stations within the 1km buffer region 
 
 ## Data Sources
 
 | Data Name                             | Data Format                                 | Source                                                               |
-|--------------------|-----------------|------------------------------------|
+|---------------------------------------|---------------------------------------------|----------------------------------------------------------------------|
 | MP14_Subzone_No_Sea_PL                | ESRI Shapefile                              | https://data.gov.sg/dataset/master-plan-2014-subzone-boundary-no-sea |
 | General-Information-Of-Schools        | Microsoft Excel Comma Separated Values File | https://data.gov.sg/dataset/school-directory-and-information         |
 | Lta-Mrt-Station-Exit                  | KML File                                    | https://data.gov.sg/dataset/lta-mrt-station-exit                     |

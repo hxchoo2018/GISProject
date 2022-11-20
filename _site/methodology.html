@@ -113,11 +113,40 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#methodology" id="toc-methodology" class="nav-link active" data-scroll-target="#methodology">Methodology</a>
   <ul class="collapse">
-  <li><a href="#filtering-tertiary-level-schools" id="toc-filtering-tertiary-level-schools" class="nav-link" data-scroll-target="#filtering-tertiary-level-schools">1. Filtering tertiary level schools</a></li>
-  <li><a href="#analytical-hexagon" id="toc-analytical-hexagon" class="nav-link" data-scroll-target="#analytical-hexagon">2. Analytical Hexagon</a></li>
-  <li><a href="#accessibility-analysis" id="toc-accessibility-analysis" class="nav-link" data-scroll-target="#accessibility-analysis">3. Accessibility Analysis</a></li>
-  <li><a href="#ease-of-access-to-mrt-lrt" id="toc-ease-of-access-to-mrt-lrt" class="nav-link" data-scroll-target="#ease-of-access-to-mrt-lrt">4. Ease of Access to MRT &amp; LRT</a></li>
-  <li><a href="#ease-of-access-to-bus-stops" id="toc-ease-of-access-to-bus-stops" class="nav-link" data-scroll-target="#ease-of-access-to-bus-stops">5. Ease of Access to Bus Stops</a></li>
+  <li><a href="#calculation-using-origin-destination-matrix-od-matrix" id="toc-calculation-using-origin-destination-matrix-od-matrix" class="nav-link" data-scroll-target="#calculation-using-origin-destination-matrix-od-matrix">1. Calculation using Origin-Destination Matrix (OD-Matrix)</a></li>
+  <li><a href="#calculation-on-number-of-nearest-bus-stops-lrt-and-mrt-station-within-1km-buffer-region" id="toc-calculation-on-number-of-nearest-bus-stops-lrt-and-mrt-station-within-1km-buffer-region" class="nav-link" data-scroll-target="#calculation-on-number-of-nearest-bus-stops-lrt-and-mrt-station-within-1km-buffer-region">2. Calculation on number of nearest bus stops, LRT and MRT station within 1km buffer region</a></li>
+  </ul></li>
+  <li><a href="#step-by-step-guide" id="toc-step-by-step-guide" class="nav-link" data-scroll-target="#step-by-step-guide">Step-By-Step Guide</a>
+  <ul class="collapse">
+  <li><a href="#data-collection-and-preparation" id="toc-data-collection-and-preparation" class="nav-link" data-scroll-target="#data-collection-and-preparation"><strong>2.1 Data Collection and Preparation</strong></a>
+  <ul class="collapse">
+  <li><a href="#downloading-geospatial-data" id="toc-downloading-geospatial-data" class="nav-link" data-scroll-target="#downloading-geospatial-data"><strong>2.1.1 Downloading Geospatial Data</strong></a></li>
+  <li><a href="#managing-the-imported-data" id="toc-managing-the-imported-data" class="nav-link" data-scroll-target="#managing-the-imported-data"><strong>2.1.2 Managing the Imported Data</strong></a></li>
+  </ul></li>
+  <li><a href="#setting-the-scene" id="toc-setting-the-scene" class="nav-link" data-scroll-target="#setting-the-scene"><strong>2.2 Setting the Scene</strong></a>
+  <ul class="collapse">
+  <li><a href="#starting-a-new-qgis-project" id="toc-starting-a-new-qgis-project" class="nav-link" data-scroll-target="#starting-a-new-qgis-project"><strong>2.2.1 Starting a new QGIS project</strong></a></li>
+  <li><a href="#preparing-the-base-layer-for-the-study-area" id="toc-preparing-the-base-layer-for-the-study-area" class="nav-link" data-scroll-target="#preparing-the-base-layer-for-the-study-area"><strong>2.2.2 Preparing the base layer for the study area</strong></a></li>
+  <li><a href="#preparing-the-merged-education-institutions-mixedjunior-college-layer" id="toc-preparing-the-merged-education-institutions-mixedjunior-college-layer" class="nav-link" data-scroll-target="#preparing-the-merged-education-institutions-mixedjunior-college-layer"><strong>2.2.3 Preparing the merged education institutions (mixed/junior college) layer</strong></a></li>
+  <li><a href="#preparing-the-road-network-layer" id="toc-preparing-the-road-network-layer" class="nav-link" data-scroll-target="#preparing-the-road-network-layer"><strong>2.2.4 Preparing the Road Network Layer</strong></a></li>
+  <li><a href="#creating-hexagon-layer-using-masterplan-14" id="toc-creating-hexagon-layer-using-masterplan-14" class="nav-link" data-scroll-target="#creating-hexagon-layer-using-masterplan-14"><strong>2.2.5 Creating Hexagon Layer using MasterPlan 14</strong></a></li>
+  <li><a href="#computing-hexagon-centroid" id="toc-computing-hexagon-centroid" class="nav-link" data-scroll-target="#computing-hexagon-centroid"><strong>2.2.6 Computing Hexagon Centroid</strong></a></li>
+  </ul></li>
+  <li><a href="#accessibility-analysis" id="toc-accessibility-analysis" class="nav-link" data-scroll-target="#accessibility-analysis"><strong>2.3 Accessibility Analysis</strong></a>
+  <ul class="collapse">
+  <li><a href="#installing-qneat3-plugin" id="toc-installing-qneat3-plugin" class="nav-link" data-scroll-target="#installing-qneat3-plugin"><strong>2.3.1 Installing QNEAT3 Plugin</strong></a></li>
+  <li><a href="#working-with-od-matrix-tool" id="toc-working-with-od-matrix-tool" class="nav-link" data-scroll-target="#working-with-od-matrix-tool"><strong>2.3.2 Working with OD Matrix Tool</strong></a></li>
+  <li><a href="#extracting-shortest-distance-pairs" id="toc-extracting-shortest-distance-pairs" class="nav-link" data-scroll-target="#extracting-shortest-distance-pairs"><strong>2.3.3 Extracting Shortest Distance Pairs</strong></a></li>
+  <li><a href="#mapping-accessibility-values" id="toc-mapping-accessibility-values" class="nav-link" data-scroll-target="#mapping-accessibility-values"><strong>2.3.4 Mapping Accessibility Values</strong></a></li>
+  </ul></li>
+  <li><a href="#repeat-of-steps-for-schools-before-the-merger" id="toc-repeat-of-steps-for-schools-before-the-merger" class="nav-link" data-scroll-target="#repeat-of-steps-for-schools-before-the-merger"><strong>2.4 Repeat of steps for schools before the merger</strong></a></li>
+  <li><a href="#public-transports-near-junior-colleges" id="toc-public-transports-near-junior-colleges" class="nav-link" data-scroll-target="#public-transports-near-junior-colleges"><strong>2.5 Public Transports near Junior Colleges</strong></a>
+  <ul class="collapse">
+  <li><a href="#creating-buffer-region" id="toc-creating-buffer-region" class="nav-link" data-scroll-target="#creating-buffer-region"><strong>2.5.1 Creating&nbsp; buffer region</strong></a></li>
+  <li><a href="#identifying-bus-stops-within-the-buffer-region" id="toc-identifying-bus-stops-within-the-buffer-region" class="nav-link" data-scroll-target="#identifying-bus-stops-within-the-buffer-region"><strong>2.5.2 Identifying bus stops within the buffer region</strong></a></li>
+  <li><a href="#identifying-mrt-stations-within-buffer-region" id="toc-identifying-mrt-stations-within-buffer-region" class="nav-link" data-scroll-target="#identifying-mrt-stations-within-buffer-region"><strong>2.5.3 Identifying MRT stations within buffer region</strong></a></li>
+  </ul></li>
+  <li><a href="#repeat-of-steps-for-schools-before-the-merger-1" id="toc-repeat-of-steps-for-schools-before-the-merger-1" class="nav-link" data-scroll-target="#repeat-of-steps-for-schools-before-the-merger-1"><strong>2.6 Repeat of steps for schools before the merger</strong></a></li>
   </ul></li>
   </ul>
 </nav>
@@ -129,30 +158,526 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="methodology" class="level1">
 <h1>Methodology</h1>
-<section id="filtering-tertiary-level-schools" class="level2">
-<h2 class="anchored" data-anchor-id="filtering-tertiary-level-schools">1. Filtering tertiary level schools</h2>
-<p>As the General-Information-of-Schools dataset also includes Primary and Secondary schools, we filtered the data to only include “Junior Colleges” and “Mixed Levels”.</p>
+<section id="calculation-using-origin-destination-matrix-od-matrix" class="level2">
+<h2 class="anchored" data-anchor-id="calculation-using-origin-destination-matrix-od-matrix">1. Calculation using Origin-Destination Matrix (OD-Matrix)</h2>
+<p>First we extract MasterPlan 14 Subzone (no sea) and export it into a GeoPackage. We also add in the education layer, after filtering Junior Colleges, Mixed Levels and Institutions, using the 'filter by expression' function into QGIS and export this layer to GeoPackage.</p>
+<p>The roads layer from the OSM data is also added onto the panel. The roads layer is then clipped together with MasterPlan 14, to get roads that are within Singapore. This newly created clipped layer is then exported as GeoPackage.</p>
+<p>A hexagon layer, with the shape of MasterPlan 14 is also created using the 'Create Grids' function. The hexagon is then computed as a hexagon centroid so as to 'convert' the polygon feature into a point feature which could then be runned by QNEAT3 for network analysis.</p>
+<p>After using QNEAT3 for accessibility analysis, we would obtain an Output OD Matrix which shows the shortest path which is then categorised by a choropleth map.</p>
 </section>
-<section id="analytical-hexagon" class="level2">
-<h2 class="anchored" data-anchor-id="analytical-hexagon">2. Analytical Hexagon</h2>
-<p>To normalize the geography for mapping and reduce the issue of irregularly shaped polygons, a hexagon layer is created with the shape of MasterPlan 14 using the “Create Grids” function.</p>
-<p>This aims to convert the polygon features of MasterPlan 14 into a point feature to run for accessibility analysis.</p>
+<section id="calculation-on-number-of-nearest-bus-stops-lrt-and-mrt-station-within-1km-buffer-region" class="level2">
+<h2 class="anchored" data-anchor-id="calculation-on-number-of-nearest-bus-stops-lrt-and-mrt-station-within-1km-buffer-region">2. Calculation on number of nearest bus stops, LRT and MRT station within 1km buffer region</h2>
+<p>A dissolved buffer region of 1 km with locations of Junior Colleges being the centre of the buffer region, using the 'buffer' function and exported as GeoPackage.</p>
+<p>For bus stops, we would use the transport layer under OSM data, clip to filter transports within Singapore and further filter for bus stops. Lastly, to filter those bus stops within the 1 km buffer region.</p>
+<p>Clip the LRT and MRT Exit (downloaded from data.gov) layer with the 1 km buffer region to get MRT and LRT stations within the 1 km buffer region.</p>
+</section>
+</section>
+<section id="step-by-step-guide" class="level1">
+<h1>Step-By-Step Guide</h1>
+<section id="data-collection-and-preparation" class="level2">
+<h2 class="anchored" data-anchor-id="data-collection-and-preparation"><strong>2.1 Data Collection and Preparation</strong></h2>
+<section id="downloading-geospatial-data" class="level3">
+<h3 class="anchored" data-anchor-id="downloading-geospatial-data"><strong>2.1.1 Downloading Geospatial Data</strong></h3>
+<ol type="1">
+<li><p>Download the following geospatial data from data.gov.sg:</p>
+<ul>
+<li>Master Plan 2014 Subzone Boundary (No Sea)</li>
+</ul></li>
+<li><p>Download School Directory and Information from data.gov.sg</p>
+<ul>
+<li>Extract general-information-of-schools.csv from the zip file downloaded</li>
+</ul></li>
+<li><p>Download <a href="https://download.geofabrik.de/asia/malaysia-singapore-brunei.html">GIS data from OpenStreetMap (OSM)</a></p>
+<ul>
+<li>malaysia-singapore-brunei-latest-free.shp.zip</li>
+</ul></li>
+<li><p>Download the following data from data.gov.sg</p>
+<ul>
+<li>Lta-mrt-station-exit</li>
+</ul></li>
+</ol>
+</section>
+<section id="managing-the-imported-data" class="level3">
+<h3 class="anchored" data-anchor-id="managing-the-imported-data"><strong>2.1.2 Managing the Imported Data</strong></h3>
+<ol type="1">
+<li><p>Create a new project folder called "Subtheme1" and create a new sub-folder called data.gov</p></li>
+<li><p>Unzip the newly downloaded data and place them into the sub-folder</p></li>
+<li><p>Create another sub-folder called GeoPackage</p>
+<ul>
+<li>Within GeoPackage, create another sub-folder called SG</li>
+</ul></li>
+</ol>
+</section>
+</section>
+<section id="setting-the-scene" class="level2">
+<h2 class="anchored" data-anchor-id="setting-the-scene"><strong>2.2 Setting the Scene</strong></h2>
+<section id="starting-a-new-qgis-project" class="level3">
+<h3 class="anchored" data-anchor-id="starting-a-new-qgis-project"><strong>2.2.1 Starting a new QGIS project</strong></h3>
+<ol type="1">
+<li><p>Launch QGIS</p></li>
+<li><p>Start a new QGIS project</p></li>
+<li><p>Save the project in Subtheme1&nbsp; folder and name the new project as Subtheme1</p></li>
+<li><p>Ensure that the CRS is in SVY21/EPSG3414 at the lower right corner of the QGIS software</p></li>
+</ol>
+</section>
+<section id="preparing-the-base-layer-for-the-study-area" class="level3">
+<h3 class="anchored" data-anchor-id="preparing-the-base-layer-for-the-study-area"><strong>2.2.2 Preparing the base layer for the study area</strong></h3>
+<ol type="1">
+<li><p>Click on Layer &gt;Add Vector Layer&nbsp;</p></li>
+<li><p>Click on "..."&nbsp;</p></li>
+<li><p>Select the downloaded URA_MP14_SUBZONE_NO_SEA_PL shapefile from Subtheme1 folder<br>
+</p></li>
+</ol>
+<section id="exporting-masterplan-14-as-geopackage" class="level4">
+<h4 class="anchored" data-anchor-id="exporting-masterplan-14-as-geopackage"><strong>2.2.2.1 Exporting MasterPlan 14 as GeoPackage</strong></h4>
+<ol type="1">
+<li><p>Right click on URA_MP14_SUBZONE_NO_SEA_PLs layer</p></li>
+<li><p>Select Export &gt; Save selected feature as</p></li>
+<li><p>File type: GeoPackage</p></li>
+<li><p>File Name: SG</p>
+<ul>
+<li>Select SG.gpkg that was previously created</li>
+</ul></li>
+<li><p>Layer Name: SG – MasterPlan14</p></li>
+</ol>
+</section>
+</section>
+<section id="preparing-the-merged-education-institutions-mixedjunior-college-layer" class="level3">
+<h3 class="anchored" data-anchor-id="preparing-the-merged-education-institutions-mixedjunior-college-layer"><strong>2.2.3 Preparing the merged education institutions (mixed/junior college) layer</strong></h3>
+<ol type="1">
+<li><p>Click on Layer &gt;Add Delimited Layer&nbsp;</p></li>
+<li><p>Click on "..."&nbsp;</p></li>
+<li><p>Select the downloaded general-information-of-schools from Subtheme1 folder<br>
+</p></li>
+</ol>
+<section id="filtering-mixed-institutions-and-junior-colleges" class="level4">
+<h4 class="anchored" data-anchor-id="filtering-mixed-institutions-and-junior-colleges"><strong>2.2.3.1 Filtering Mixed Institutions and Junior Colleges</strong></h4>
+<ol type="1">
+<li><p>Click on the general-information-of-schools layer</p></li>
+<li><p>Select attribute table</p></li>
+<li><p>Click on Select By Expression and a dialog window will appear</p></li>
+<li><p>Double click on Fields and Values and select mainlevel_code</p></li>
+<li><p>Click on the "=" operator on the bottom left of the expression box</p></li>
+<li><p>Click on All Unique &nbsp;and scroll down to select Mixed Levels</p></li>
+<li><p>Manually type in OR and repeat steps 4-6 for Centralised Institute and&nbsp; Junior College</p></li>
+<li><p>Click on Select Features and close the dialog window</p></li>
+</ol>
+<p>* Note: 25/346 features would be selected</p>
+</section>
+<section id="geocoding-using-mmqgis-plugin" class="level4">
+<h4 class="anchored" data-anchor-id="geocoding-using-mmqgis-plugin"><strong>2.2.3.2 Geocoding using MMQGIS plugin</strong></h4>
+<ol type="1">
+<li>From the menu bar, select MMQGIS -&gt; Geocode -&gt; Geocode CSV with Web Service.<br>
+</li>
+</ol>
+</section>
+<section id="exporting-filtered-education-institutes-as-geopackage" class="level4">
+<h4 class="anchored" data-anchor-id="exporting-filtered-education-institutes-as-geopackage"><strong>2.2.3.3 Exporting Filtered Education Institutes as GeoPackage</strong></h4>
+<ol type="1">
+<li><p>Right click on general-information-of-schools layer</p></li>
+<li><p>Select Export &gt; Save selected feature as</p></li>
+<li><p>File type: GeoPackage</p></li>
+<li><p>File Name: SG</p>
+<ol type="1">
+<li>Select SG.gpkg that was previously created</li>
+</ol></li>
+<li><p>Layer Name: SG – Education<br>
+</p></li>
+</ol>
+<p>* Note: The layer is in svy21 Projected&nbsp; Coordinate System and not in original wgs84 Geographic Coordinate System</p>
+<p>Notice that certain schools such as Maris Stella High School which does not offer GEO Advanced Levels nor International Baccalaureate is also included as a feature in the attribute table. The following steps would remove those unwanted features<br>
+</p>
+</section>
+<section id="further-filtering-the-education-layer" class="level4">
+<h4 class="anchored" data-anchor-id="further-filtering-the-education-layer"><strong>2.2.3.4 Further filtering the Education Layer</strong></h4>
+<ol type="1">
+<li><p>Click on the education layer</p></li>
+<li><p>Select attribute table</p></li>
+<li><p>Click on Select By Expression and a dialog window will appear</p></li>
+<li><p>Double click on Fields and Values and select school_name</p></li>
+<li><p>Click on the "=" operator on the bottom left of the expression box</p></li>
+<li><p>Click on All Unique &nbsp;and scroll down to select Maris Stella High School</p></li>
+<li><p>Manually type in OR and repeat steps 4-6 for both Catholic High School and CHIJ St.&nbsp;Nicholas Girls School</p></li>
+<li><p>Click on Select Features and close the dialog window</p></li>
+<li><p>Click on <img src="https://lh4.googleusercontent.com/J4xnPsbkmz8oBGnolemXjkoz7mNn6vfmBOPuqCQRvTREGW_1_M9ZbokBivEHq4SVGm_yrNoO5B9onK_UKdQFRR1KDqcENohMGnsHGYLMSDeuWKgpp_BClC3lva-FZPjtaToq7qlGZ081I3Z_4VBMC9aDSdcz0zWeA1dQWC_AnFNC9KgHU8pJg37S5tsNrw.png" class="img-fluid"> to invert the selection and close the attribute table<br>
+</p></li>
+</ol>
+<p>* Notice that only 22/25 of the features are being selected<br>
+</p>
+</section>
+<section id="exporting-filtered-education-institutes-as-geopackage-1" class="level4">
+<h4 class="anchored" data-anchor-id="exporting-filtered-education-institutes-as-geopackage-1"><strong>2.2.3.5 Exporting Filtered Education Institutes as GeoPackage</strong></h4>
+<ol type="1">
+<li><p>Right click on education layer</p></li>
+<li><p>Select Export &gt; Save selected feature as</p></li>
+<li><p>File type: GeoPackage</p></li>
+<li><p>File Name: SG</p>
+<ul>
+<li>Select SG.gpkg that was previously created</li>
+</ul></li>
+<li><p>Layer Name: SG – Merged JC<br>
+</p></li>
+</ol>
+<p>* Note: The layer is in SVY21 Projected&nbsp; Coordinate System and not in original WGS84 Geographic Coordinate System</p>
+</section>
+</section>
+<section id="preparing-the-road-network-layer" class="level3">
+<h3 class="anchored" data-anchor-id="preparing-the-road-network-layer"><strong>2.2.4 Preparing the Road Network Layer</strong></h3>
+<section id="extracting-and-preparing-road-network-layer" class="level4">
+<h4 class="anchored" data-anchor-id="extracting-and-preparing-road-network-layer"><strong>2.2.4.1 Extracting and Preparing Road Network Layer</strong></h4>
+<ol type="1">
+<li><p>Click on Layer &gt;Add Vector Layer&nbsp;</p></li>
+<li><p>Click on "..."&nbsp;</p></li>
+<li><p>Select the downloaded gis_osm_roads_free_1 shapefile from Subtheme1 folder<br>
+</p></li>
+</ol>
+</section>
+<section id="filtering-roads-within-singapore" class="level4">
+<h4 class="anchored" data-anchor-id="filtering-roads-within-singapore"><strong>2.2.4.2 Filtering roads within Singapore</strong></h4>
+<ol type="1">
+<li><p>Select Vector &gt; Geoprocessing Tools &gt; Clip</p></li>
+<li><p>Clip Dialog window appears</p>
+<ul>
+<li><p>Input layer: gis_osm_roads_free_1</p></li>
+<li><p>Overlay layer: SG- MasterPlan14</p></li>
+<li><p>Click on Advanced Options</p>
+<ul>
+<li>Invalid Feature Filtering: Do not Filter (Better Performance)</li>
+</ul></li>
+</ul></li>
+</ol>
+<p>* Repeat this step for Overlay Layer</p>
+<ol start="3" type="1">
+<li>Click Run and then Close to close the dialog window</li>
+<li>Repeat the steps above to save Clipped virtual layer into GeoPackage and call the data layer as all_roads<br>
+</li>
+</ol>
+</section>
+<section id="extracting-motor-vehicle-network" class="level4">
+<h4 class="anchored" data-anchor-id="extracting-motor-vehicle-network"><strong>2.2.4.3 Extracting motor vehicle network</strong></h4>
+<ol type="1">
+<li><p>Click on the all_roads layer</p></li>
+<li><p>Select attribute table</p></li>
+<li><p>Click on Select By Expression and a dialog window will appear</p></li>
+<li><p>Double click on Fields and Values and select fclass</p></li>
+<li><p>Click on the "=" operator on the bottom left of the expression box</p></li>
+<li><p>Click on All Unique &nbsp;and scroll down to select motorway</p></li>
+<li><p>Manually type in OR and repeat steps 4-6 for motorway_link, primary, primary_link, secondary, secondary_link, tertiary, tertiary_link, residential, trunk and trunk_link</p></li>
+</ol>
+<p><img src="https://lh5.googleusercontent.com/ZE3VL1xLfF8NqNE93OZ2aQeVqGtd0OGtDe-j_EkR7EnWBVk8_vYv4uJUXc0EwJcka61eRUh2jV-O99rYA7-mxRKrogwCRN8pNt4nDeDJtP1H3fpjE8XrFlSqYEpYkKbI0AnMMWw9UVUv3k76_SO1UOWm6mkW5oCoZEnM8DJcOGXyWjCqKNQBnxSFN6dkKg.png" class="img-fluid"></p>
+<ol start="8" type="1">
+<li>Click on Select Features and close the dialog window</li>
+</ol>
+</section>
+<section id="exporting-the-selected-motor-vehicle-network-as-geopackage" class="level4">
+<h4 class="anchored" data-anchor-id="exporting-the-selected-motor-vehicle-network-as-geopackage"><strong>2.2.4.4 Exporting the selected motor vehicle network as GeoPackage</strong></h4>
+<ol type="1">
+<li><p>Right click on all_roads layer</p></li>
+<li><p>Select Export &gt; Save selected feature as</p></li>
+<li><p>File type: GeoPackage</p></li>
+<li><p>File Name: SG</p>
+<ol type="1">
+<li>Select SG.gpkg that was previously created</li>
+</ol></li>
+<li><p>Layer Name: SG –&nbsp; roads</p></li>
+<li><p>Remove the all_roads layer from the Panel</p></li>
+</ol>
+<p>* Note: The layer is now in SVY21 Projected Coordinate System and not in original WGS84 Geographic Coordinate System<br>
+</p>
+<p>Now that all the motor vehicle network within Singapore is extracted, we will move on to create a hexagon layer which would be used in QNEAT3 for the accessibility analysis</p>
+</section>
+</section>
+<section id="creating-hexagon-layer-using-masterplan-14" class="level3">
+<h3 class="anchored" data-anchor-id="creating-hexagon-layer-using-masterplan-14"><strong>2.2.5 Creating Hexagon Layer using MasterPlan 14</strong></h3>
+<ol type="1">
+<li><p>From the menu bar, select Vector &gt; Research Tools &gt; Create Grid</p></li>
+<li><p>Create Grids dialog window appears</p>
+<ul>
+<li><p>Grid Type: Hexagon (Polygon) &nbsp;from drop down list</p></li>
+<li><p>Grid Extend: Calculate from Layer &gt; MasterPlan 14</p></li>
+<li><p>Horizontal Spacing: 500</p></li>
+<li><p>Vertical Spacing: 500</p></li>
+<li><p>Grid CRS: EPSG 3414</p></li>
+</ul></li>
+<li><p>When you are ready to run the process, click on Run</p></li>
+<li><p>Reminder: Read the Log before closing the dialog window</p></li>
+<li><p>Click on Close after the process is finished</p></li>
+</ol>
+<p>* Notice that a new temporary layer called Grid is added onto the layer pane and display on Map window</p>
+<section id="editing-the-hexagon-layer" class="level4">
+<h4 class="anchored" data-anchor-id="editing-the-hexagon-layer"><strong>2.2.5.1 Editing the Hexagon Layer</strong></h4>
+<ol type="1">
+<li><p>Select Vector &gt; Geoprocessing Tools &gt; Clip</p></li>
+<li><p>Clip Dialog window appears</p>
+<ul>
+<li><p>Input layer: Grid</p></li>
+<li><p>Overlay layer: MasterPlan 14</p></li>
+<li><p>Click on Advanced Options</p>
+<ul>
+<li>Invalid Feature Filtering: Do not Filter (Better Performance)</li>
+</ul></li>
+</ul></li>
+</ol>
+<p>* Repeat this step for Overlay Layer</p>
+<ol start="4" type="1">
+<li>Click Run and then Close to close the dialog window</li>
+</ol>
+<!-- -->
+<ol start="3" type="1">
+<li><p>Repeat the steps above to save Clipped virtual layer into GeoPackage and call the data layer as Hexagon</p></li>
+<li><p>Remove the Clipper virtual layer, Grid layers from the Layer Panel</p></li>
+</ol>
+<p>Your screen should look something similar to this.</p>
+<p><img src="https://lh6.googleusercontent.com/eLC6XiK6TFDSd9axS59n3C2LcDyUv1siXCBu6_MyMxgVhY1lLA06D-rDb1TdZYjp73f35EL6xmlXo9WJSgB3z5Cml7-LzM3gcmjuuaVcF3HdUUn_VMCtQ7JAXex8K5J6eS1xkYijiuU8HTyMv6rX8mvy4vy2yn9b6puImqvgGdSu49S8uv6UGLePpNi14w.png" class="img-fluid"></p>
+<p>In general, network analysis required the demand in a point feature. Hexagon, on the other hand, is a polygon feature. As such, we would have to compute the centroids of the hexagon.</p>
+</section>
+</section>
+<section id="computing-hexagon-centroid" class="level3">
+<h3 class="anchored" data-anchor-id="computing-hexagon-centroid"><strong>2.2.6 Computing Hexagon Centroid</strong></h3>
+<ol type="1">
+<li><p>From the menu bar, select Vector &gt; Geometry Tools &gt; Centroids</p></li>
+<li><p>Centroids Dialog window appears</p>
+<ul>
+<li>Input Layer: Hexagon</li>
+</ul></li>
+<li><p>Click on Run button</p></li>
+<li><p>Reminder: Read the Log before closing the dialog window</p></li>
+<li><p>Click on Close after the process is finished</p></li>
+</ol>
+<p>* Notice that a new temporary layer called Centroid is added onto the Layers panel and displayed on Map view.<br>
+</p>
+<p>Your screen should looks similar to this</p>
+<p><img src="https://lh3.googleusercontent.com/tcX91ffRljCaPBzx47F70iZ40A5aZ4gnr6LvGeQ6emrMik_PtjFMnOaMCrHCCHcCpkP5rwyjciboLM2U8_dQ024K9TlMFZI9pU2k7VisgWhcNRMTNbhRu4Ejj3KfP8zJ58UclGph5E2dKUyTLHYk706sE2l7Ra7OZ7yuLK2qUa243Rx9J7-EWLMjF_6ZPg.png" class="img-fluid"></p>
+<section id="saving-the-centroid-layer" class="level4">
+<h4 class="anchored" data-anchor-id="saving-the-centroid-layer"><strong>2.2.6.1 Saving the Centroid Layer</strong></h4>
+<ol type="1">
+<li><p>Repeat the steps to export as GeoPackage and name the newly created layer as <strong>hex_centroid</strong></p></li>
+<li><p>Remember to remove the temporary centroids layer</p></li>
+</ol>
+</section>
+</section>
 </section>
 <section id="accessibility-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="accessibility-analysis">3. Accessibility Analysis</h2>
-<p>We ran Origin-Distance Matrix by QNEAT3 using the hexagon layer and location of tertiary level school to calculate the distance between hexagon centroids and junior colleges.</p>
-<p>The result layer was categorised by a cloropleth map.</p>
-<p><img src="images/photo_2022-11-08_01-57-25.jpg" class="img-fluid" width="469"></p>
+<h2 class="anchored" data-anchor-id="accessibility-analysis"><strong>2.3 Accessibility Analysis</strong></h2>
+<pre><code>This section, we will be performing network accessibility analysis by using QGIS Network Analysis Toolbox (QNEAT3) Plugin</code></pre>
+<section id="installing-qneat3-plugin" class="level3">
+<h3 class="anchored" data-anchor-id="installing-qneat3-plugin"><strong>2.3.1 Installing QNEAT3 Plugin</strong></h3>
+<ol type="1">
+<li><p>Select Plugins &gt; Manage and Install Plugin</p></li>
+<li><p>At the Plugin dialog window, type QNEAT3</p></li>
+<li><p>&nbsp;Notice that QNEAT3 appears on the search output list</p></li>
+<li><p>Click on QNEAT3 and Install Plugin button</p></li>
+<li><p>When the installation is completed, close the dialog box by clicking on the Close button</p></li>
+</ol>
 </section>
-<section id="ease-of-access-to-mrt-lrt" class="level2">
-<h2 class="anchored" data-anchor-id="ease-of-access-to-mrt-lrt">4. Ease of Access to MRT &amp; LRT</h2>
-<p>Our group decided on a 1km buffer region as an appropriate distance to measure ease of accessibility. Thus, using the Buffer function of QGIS, a dissolved buffer region of 1km around the Junior College is created.</p>
-<p>We then clip the LRT and MRT exits layer from data.gov.sg that are within the 1km buffer region.</p>
+<section id="working-with-od-matrix-tool" class="level3">
+<h3 class="anchored" data-anchor-id="working-with-od-matrix-tool"><strong>2.3.2 Working with OD Matrix Tool</strong></h3>
+<p>Origin-Destination Matrix (OD Matrix) tool of QNEAT3 plugin will be used to calculate the distance between hexagon centroid (as the demand points) and eldercare centres (as the supply points)</p>
+<ol type="1">
+<li><p>From the menu bar, click on Processing &gt; Toolbox</p></li>
+<li><p>At the Search pane, type OD Matrix</p></li>
+<li><p>Click on OD Matrix Layers as Table (m:n).</p></li>
+<li><p>OD Matrix Layers as Table (m:n) dialog window appears.</p>
+<ul>
+<li><p>For Network Layer, select roads from the drop-down list.</p></li>
+<li><p>For From-Point Layer, select hex_centroid from the drop-down list.</p></li>
+<li><p>For Unique Point ID Field, select fid from the drop-down list.</p></li>
+<li><p>For To-Point Layer, select MergedJC from the drop-down list.</p></li>
+<li><p>For Unique Point ID Field, select fid from the drop-down list.</p></li>
+<li><p>For Optimization Criterion, select Shortest Path (distance optimization) from the drop-down list.</p></li>
+<li><p>For Entry Cost calculation method, select Ellipsoidal from the drop-down list.</p></li>
+<li><p>For Direction field, select oneway from the drop-down list.</p></li>
+<li><p>For Value for forward direction, type <strong>F</strong>.</p></li>
+<li><p>For Value for backward direction, type <strong>T</strong>.</p></li>
+<li><p>For Value for both direction, type <strong>B</strong>.</p></li>
+<li><p>For Topology tolerance, type 0.5 (i.e.&nbsp;0.5 m).</p></li>
+</ul></li>
+<li><p>When you are ready, click on Close to close the dialog window<br>
+</p></li>
+</ol>
+<p>* Notice that new temporary table called Output OD Matrix is added onto Layers panel<br>
+</p>
+<ol start="6" type="1">
+<li><p>At the Layers panel, right-click on Output OD Matrix and select Open Attribute Table from the context menu</p></li>
+<li><p>Using the steps to export into GeoPackage, save the temporary Output OD Matrix table as GeoPackage format. Name the layer <strong>OD_mixedjc</strong></p></li>
+</ol>
 </section>
-<section id="ease-of-access-to-bus-stops" class="level2">
-<h2 class="anchored" data-anchor-id="ease-of-access-to-bus-stops">5. Ease of Access to Bus Stops</h2>
-<p>To get location of bus stops around Singapore, it is extracted from OpenStreetMap with Geofabrik. The layer is clipped to be within Singapore and filtered to only include bus stops.</p>
-<p>We then clip the bus stop layer that are within the 1km buffer region.</p>
+<section id="extracting-shortest-distance-pairs" class="level3">
+<h3 class="anchored" data-anchor-id="extracting-shortest-distance-pairs"><strong>2.3.3 Extracting Shortest Distance Pairs</strong></h3>
+<p>Next, use the SQL tool of QGIS to select destination points with the shortest distance.</p>
+<ol type="1">
+<li><p>At the Search pane of Processing Toolbox, type <strong>SQL</strong></p></li>
+<li><p>Double-click on Execute SQL of Vector general.</p></li>
+<li><p>Execute SQL dialog window appears.</p>
+<ul>
+<li><p>For Additional input datasources, select on the button at the right end.</p></li>
+<li><p>Click on the checkbox Output OD Matrix.</p></li>
+<li><p>Click on <strong>OK</strong> button.</p></li>
+<li><p>At SQL query panel, type the following SQL</p>
+<ul>
+<li>Select origin_id, destination_id, min(total_cost) as shortest_distance from input1 group by origin_id</li>
+</ul></li>
+<li><p>For Geometry type, select No Geometry from the drop-down list</p></li>
+</ul></li>
+</ol>
+<p>* Notice that a temporary table called SQL Output is added onto Layers panel. It consists of four fields. The values in shortest_distance field are shortest distance between demand points and its nearest Junior Colleges<br>
+</p>
+<ol start="4" type="1">
+<li>Using the steps to export into GeoPackage, save the temporary SQL Output as GeoPackage format. Name the layer <strong>acc_mixedjc</strong></li>
+</ol>
+</section>
+<section id="mapping-accessibility-values" class="level3">
+<h3 class="anchored" data-anchor-id="mapping-accessibility-values"><strong>2.3.4 Mapping Accessibility Values</strong></h3>
+<pre><code>Use the mapping function of QGIS to show the distribution of accessibility to Junior College</code></pre>
+<section id="creating-a-duplicate-layer" class="level4">
+<h4 class="anchored" data-anchor-id="creating-a-duplicate-layer"><strong>2.3.4.1 Creating a Duplicate layer</strong></h4>
+<ol type="1">
+<li><p>At the Layers panel, right-click on the hexagon layer and select Duplicate Layer from the context menu.</p></li>
+<li><p>A new layer called hexagon copy is added onto the Layers panel.</p></li>
+<li><p>Rename the layer to <strong>Accessibility to mixedjc</strong></p></li>
+</ol>
+</section>
+<section id="performing-relational-join" class="level4">
+<h4 class="anchored" data-anchor-id="performing-relational-join"><strong>2.3.4.2 Performing Relational Join</strong></h4>
+<p>Before we can prepare the choropleth map, we need to join <strong>acc_mixedjc</strong> data table to the newly created <strong>Accessibility to mixedjc</strong> by using fid of <strong>acc_mixedjc</strong> data table and fid of <strong>Accessibility to mixedjc</strong>&nbsp; attribute table as unique join fields.<br>
+</p>
+<ol type="1">
+<li><p>At the Layer panel, right-click on <strong>Accessibility to mixedjc</strong> layer and select Properties from the context menu.</p></li>
+<li><p>The Properties dialog window appears.</p></li>
+<li><p>At the option panel, click on <strong>Joins</strong>.</p></li>
+<li><p>Click on + button to add a join.</p></li>
+<li><p>The <strong>Add Vector Join</strong> dialog window appears.</p></li>
+<li><p>For the <strong>Join layer</strong>, select acc_mixedjc from th drop-down list.</p></li>
+<li><p>For the <strong>Join field</strong>, select fid from the drop-down list.</p></li>
+<li><p>For the <strong>Target field</strong>, select fid from the drop-down list.</p></li>
+<li><p>Keep the checkbox in front of the <strong>Cache join layer in memory</strong> checked.</p></li>
+<li><p>When one, click on <strong>OK</strong> button</p></li>
+</ol>
+</section>
+<section id="preparing-choropleth-map" class="level4">
+<h4 class="anchored" data-anchor-id="preparing-choropleth-map"><strong>2.3.4.3 Preparing Choropleth Map</strong></h4>
+<ol type="1">
+<li><p>Double click on <strong>Accessibility to mixedjc</strong></p></li>
+<li><p>Layer Properties dialog windows appears</p></li>
+<li><p>Click on <strong>Symbology</strong></p></li>
+<li><p>At Symbol selection drop-down list, select Graduated from the drop-down list</p></li>
+<li><p>Value: <strong>SG — acc_mixedjc_shortest_distance</strong></p></li>
+<li><p>Classes – keep it as 5</p></li>
+<li><p>Colour Ramp – any colour of your choice</p></li>
+<li><p>Mode: Natural Break (Jenks) from the drop-down list</p></li>
+<li><p>Click on Classify</p></li>
+<li><p>Click on Histogram &gt; Load Values</p></li>
+<li><p>Click on Apply<br>
+</p></li>
+</ol>
+<p>The choropleth map should like something like this.</p>
+<p><img src="https://lh6.googleusercontent.com/Nd0x85X1oxP_rnC8VJwOlt_cVYPaT5A_a_Oi6AyvdJvsCfbr3eK23cxbWPwQBG0LejMeV9lReuU_Zfh9CNLS-WbydEnGSjMGrYKhq3U5Q51tvXEGhnCSakGfMfVaE63WF8U2m5uXgxuUdCTZmHo_mKoKbdmQneaLgJa1f02078u2IhVBlHW_FqrRkyixTA.png" class="img-fluid"><br>
+</p>
+</section>
+</section>
+</section>
+<section id="repeat-of-steps-for-schools-before-the-merger" class="level2">
+<h2 class="anchored" data-anchor-id="repeat-of-steps-for-schools-before-the-merger"><strong>2.4 Repeat of steps for schools before the merger</strong></h2>
+<ol type="1">
+<li>2.2.3, 2.2.5, 2.2.6 and 2.3 to produce another choropleth map&nbsp;</li>
+</ol>
+</section>
+<section id="public-transports-near-junior-colleges" class="level2">
+<h2 class="anchored" data-anchor-id="public-transports-near-junior-colleges"><strong>2.5 Public Transports near Junior Colleges</strong></h2>
+<section id="creating-buffer-region" class="level3">
+<h3 class="anchored" data-anchor-id="creating-buffer-region"><strong>2.5.1 Creating&nbsp; buffer region</strong></h3>
+<ol type="1">
+<li><p>Select <strong>Vector &gt; Geoprocessing Tools &gt; Buffer…</strong></p></li>
+<li><p>Buffer Dialog Window</p></li>
+<li><p>Input Layer: <strong>SG – Merged JC</strong></p></li>
+<li><p>Distance: 1000</p></li>
+<li><p>Segments: 100</p></li>
+<li><p>check the <strong>Dissolve</strong> results</p></li>
+<li><p>Click on Run</p></li>
+<li><p>Click on Close</p></li>
+<li><p>Notice that a new GIS layer called Buffered has been added to the Browser panel</p></li>
+<li><p>Save the output buffering layer into GeoPackage format. Name the newly created layer <strong>dissolved</strong><br>
+</p></li>
+</ol>
+</section>
+<section id="identifying-bus-stops-within-the-buffer-region" class="level3">
+<h3 class="anchored" data-anchor-id="identifying-bus-stops-within-the-buffer-region"><strong>2.5.2 Identifying bus stops within the buffer region</strong></h3>
+<section id="filtering-bus-stops" class="level4">
+<h4 class="anchored" data-anchor-id="filtering-bus-stops"><strong>2.5.2.1 Filtering bus stops</strong></h4>
+<ol type="1">
+<li><p>Click on <strong>Layer &gt;Add Vector Layer</strong></p></li>
+<li><p>Click on <strong>"..."</strong></p></li>
+<li><p>Select the downloaded <strong>gis_osm_transport_a_free_1</strong> &nbsp;from Subtheme1 folder</p></li>
+<li><p>Select <strong>attribute table</strong></p></li>
+<li><p>Click on <strong>Select By Expression</strong> and a dialog window will appear</p></li>
+<li><p>Double click on Fields and Values and select <strong>fclass</strong></p></li>
+<li><p>Click on the <strong>"="</strong> operator on the bottom left of the expression box</p></li>
+<li><p>Click on All Unique&nbsp; and scroll down to select <strong>bus</strong></p></li>
+<li><p>Click on Select Features and close the dialog window</p></li>
+</ol>
+</section>
+<section id="saving-bus-stops-layer-as-geopackage" class="level4">
+<h4 class="anchored" data-anchor-id="saving-bus-stops-layer-as-geopackage"><strong>2.5.2.2 Saving bus stops layer as GeoPackage</strong></h4>
+<ol type="1">
+<li><p>Right click on <strong>gis_osm_transport_a_free_1</strong> &nbsp;layer</p></li>
+<li><p>Select <strong>Export &gt; Save selected feature as</strong></p></li>
+<li><p>File type: <strong>GeoPackage</strong></p></li>
+<li><p>File Name: <strong>SG</strong></p></li>
+<li><p>Select SG.gpkg that was previously created</p></li>
+<li><p>Layer Name: <strong>SG –&nbsp; BUS STOPS</strong></p></li>
+<li><p>Remove the <strong>gis_osm_transport_a_free_1</strong> layer from the Panel</p></li>
+</ol>
+</section>
+<section id="identifying-bus-stops-within-buffer-region" class="level4">
+<h4 class="anchored" data-anchor-id="identifying-bus-stops-within-buffer-region"><strong>2.5.2.3 Identifying bus stops within buffer region</strong></h4>
+<ol type="1">
+<li><p>Select <strong>Vector &gt; Geoprocessing Tools &gt; Clip</strong></p></li>
+<li><p><strong>Clip</strong> Dialog window appears</p></li>
+<li><p>Input layer: <strong>dissolved</strong></p></li>
+<li><p>Overlay layer: <strong>SG – BUS STOPS</strong></p></li>
+<li><p>Click on Advanced Options</p></li>
+<li><p>Invalid Feature Filtering: Do not Filter (Better Performance)</p></li>
+<li><p>Click Run and then Close to close the dialog window</p></li>
+<li><p>Repeat the steps above to save Clipped virtual layer into GeoPackage and call the data layer as <strong>SG – bus within buffer</strong></p></li>
+<li><p>Remove the Clipper virtual layer from the Layer Panel</p></li>
+</ol>
+</section>
+</section>
+<section id="identifying-mrt-stations-within-buffer-region" class="level3">
+<h3 class="anchored" data-anchor-id="identifying-mrt-stations-within-buffer-region"><strong>2.5.3 Identifying MRT stations within buffer region</strong></h3>
+<section id="importing-mrt-and-lrt-data" class="level4">
+<h4 class="anchored" data-anchor-id="importing-mrt-and-lrt-data"><strong>2.5.3.1 Importing MRT and LRT data</strong></h4>
+<ol type="1">
+<li><p>Click on Layer &gt;Add Vector Layer&nbsp;</p></li>
+<li><p>Click on "..."&nbsp;</p></li>
+<li><p>Select the downloaded <strong>lta-mrt-station-exit</strong> from Subtheme1 folder</p></li>
+<li><p>Remove extra fields and only keep "fid", "STATION_NA" and "EXIT_CODE"</p></li>
+<li><p>Save the layer as GeoPackage and call the data layer <strong>SG – MRT STATIONS</strong><br>
+</p></li>
+</ol>
+</section>
+<section id="identifying-mrt-and-lrt-stations-within-buffer-region" class="level4">
+<h4 class="anchored" data-anchor-id="identifying-mrt-and-lrt-stations-within-buffer-region"><strong>2.5.3.2 Identifying MRT and LRT stations within buffer region</strong></h4>
+<ol type="1">
+<li><p>Select <strong>Vector &gt; Geoprocessing Tools &gt; Clip</strong></p></li>
+<li><p>Clip Dialog window appears</p></li>
+<li><p>Input layer: dissolved</p></li>
+<li><p>Overlay layer: <strong>SG – MRT STATIONS</strong></p></li>
+<li><p>Click on Advanced Options</p></li>
+<li><p>Invalid Feature Filtering: Do not Filter (Better Performance)</p></li>
+<li><p>Click Run and then Close to close the dialog window</p></li>
+<li><p>Repeat the steps above to save Clipped virtual layer into GeoPackage and call the data layer as <strong>SG – mrt within buffer</strong></p></li>
+<li><p>Remove the Clipper virtual layer from the Layer Panel<br>
+</p></li>
+</ol>
+</section>
+</section>
+</section>
+<section id="repeat-of-steps-for-schools-before-the-merger-1" class="level2">
+<h2 class="anchored" data-anchor-id="repeat-of-steps-for-schools-before-the-merger-1"><strong>2.6 Repeat of steps for schools before the merger</strong></h2>
+<ol type="1">
+<li>Repeat steps 2.5.1, 2.5.2.3, 2.5.3.2 in sequence, while using the locations of Junior Colleges to create a new 1 km buffer region</li>
+</ol>
 
 
 </section>

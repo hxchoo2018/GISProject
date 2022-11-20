@@ -107,15 +107,84 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#data-sources" id="toc-data-sources" class="nav-link active" data-scroll-target="#data-sources">Data Sources</a></li>
+  <li><a href="#additional-steps" id="toc-additional-steps" class="nav-link" data-scroll-target="#additional-steps">Additional Steps</a>
+  <ul class="collapse">
+  <li><a href="#general-information-of-schools" id="toc-general-information-of-schools" class="nav-link" data-scroll-target="#general-information-of-schools">1. General Information of Schools</a></li>
+  <li><a href="#malaysia-singapore-brunei-latest-free" id="toc-malaysia-singapore-brunei-latest-free" class="nav-link" data-scroll-target="#malaysia-singapore-brunei-latest-free">2. Malaysia-Singapore-Brunei-Latest-Free</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
 
+<section id="data-sources" class="level1">
+<h1>Data Sources</h1>
+<p>These are the data sources we used in our project.</p>
+<table class="table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 20%">
+<col style="width: 21%">
+<col style="width: 41%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Data Name</th>
+<th>Data Format</th>
+<th>Source</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>MP14_Subzone_No_Sea_PL</td>
+<td>ESRI Shapefile</td>
+<td>https://data.gov.sg/dataset/master-plan-2014-subzone-boundary-no-sea</td>
+<td>Sub-zone boundary of Singapore</td>
+</tr>
+<tr class="even">
+<td>General-Information-Of-Schools</td>
+<td>Microsoft Excel Comma Separated Values File</td>
+<td>https://data.gov.sg/dataset/school-directory-and-information</td>
+<td>List of schools in Singapore ranging from Primary to Tertiary level</td>
+</tr>
+<tr class="odd">
+<td>Lta-Mrt-Station-Exit</td>
+<td>KML File</td>
+<td>https://data.gov.sg/dataset/lta-mrt-station-exit</td>
+<td>Point location of existing MRT exits in Singapore</td>
+</tr>
+<tr class="even">
+<td>Malaysia-Singapore-Brunei-Latest-Free</td>
+<td>ESRI Shapefile</td>
+<td>https://download.geofabrik.de/asia/</td>
+<td>OpenStreetMap data of Singapore, Malaysia and Brunei</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="additional-steps" class="level1">
+<h1>Additional Steps</h1>
+<section id="general-information-of-schools" class="level2">
+<h2 class="anchored" data-anchor-id="general-information-of-schools">1. General Information of Schools</h2>
+<p>As the data provided does not have coordinates, we used MMQGIS plugin “Geocode CSV with Web Service” to get geospatial mapping of the schools</p>
+</section>
+<section id="malaysia-singapore-brunei-latest-free" class="level2">
+<h2 class="anchored" data-anchor-id="malaysia-singapore-brunei-latest-free">2. Malaysia-Singapore-Brunei-Latest-Free</h2>
+<p>Only two shapefiles would be used: “<strong>gis_osm_transport_a_free_1</strong>” and “<strong>gis_osm_roads_free_1</strong>”.</p>
+<p>As the layers includes Malaysia and Brunei, the two layers are clipped to be within Singapore MP14 boundary.</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

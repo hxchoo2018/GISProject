@@ -1,1 +1,73 @@
-# Analysis
+# Results and Analysis
+
+To better identify the differences, we will be doing a comparison of Junior Colleges before the 2019 merger and after merger.
+
+## 1. Accessibility Choropleth Hexagon Layer
+
+### a. Before Merger
+
+![](images/Accessibility%20Before%20Merger.png)
+
+![](images/Accessibility%20Before%20Merger%20Histogram.jpg){width="547"}
+
+### b. After Merger
+
+![](images/Accessibility%20After%20Merger.jpg)
+
+From the diagram, taking into account all the roads, we used QNEAT3 to analyse the accessibility. Choropleth map is then used for better comparison of distance between each individual hexagon to each Junior Colleges. The shortest distance between any of the hexagons selected as origin and merged Junior Colleges as the destination point is 256.6 metres, rounding up to 257 metres.
+
+![](images/Accessibility%20After%20Merger%20Histogram.jpg){width="485"}
+
+Most of the hexagons are relatively in red or in different shades of red. This possibly suggests that most Junior Colleges are not that accessible as the shortest distance ranges from at least 6132 metres to 68963 metres.
+
+### c. Comparison
+
+![](images/Accesibility%20Comparison.jpg)
+
+Comparing both hexagons, we have identified the following differences. Few hexagons, only 7, in 2019 before merger are of a darker shade as compared after merger. Also, the closure of those Junior Colleges are mostly within 10 hexagons, which is about 2500 metres apart.
+
+As such we can conclude that the merger of Junior Colleges does not really have a huge impact on accessibility. Comparing the histograms, it could be said that the general trend of the histograms are mostly similar, ranging from around 6100 metres to 69000 metres.
+
+## 2. Comparison Feature: Bus Stops
+
+### a. Before Merger
+
+![](images/Bus%20Stops%20Before%20Merger.jpg)
+
+### b. After Merger
+
+![](images/Bus%20Stops%20after%20Merger.jpg)
+
+### c. Analysis and Comparison
+
+It could be seen that all Junior Colleges have at least one or more bus stops within the 1 km buffer. Since it is noted that accessibility is closely related with the economic and social opportunities as well as development of that area, it is clear that Singapore's bus services could be deemed as quite well developed. This is because Singapore's bus services have been around since 1925, nearly a century ago.
+
+![](images/Bus%20Stops%20Comparison.jpg)
+
+The areas circled in yellow are areas of differences before (on the left) and after merger (on the right). We would be discussing only 2 of those areas (those circled in blue and red) since their 1 km buffer regions are overlapped. 
+
+As seen from the region circled in blue and red, before merger, one of the Junior Colleges does not have that many bus stops within the 1 km buffer region as compared to the other. As such, the school that has lesser bus stops is being merged together with the one that has a higher number of bus stops within the buffer region. This could possibly suggest that the merger of schools has allowed schools to be more accessible as compared to before. 
+
+## 3. Comparison Feature: MRT
+
+### a. Before Merger
+
+![](images/MRT%20Before%20Merger.jpg){width="566"}
+
+### b. After Merger
+
+![](images/MRT%20After%20Merger.jpg){width="518"}
+
+### c. Analysis and Comparison
+
+On the other hand, not all Junior Colleges have MRT stations within the 1 km buffer region, particularly, schools that are near the Downtown area and South of Singapore tend to have more than 1 MRT station nearby. A possible reason could be because those Junior Colleges are near the Central Business District where most people would come down for food, entertainment & Leisures and work. Since most people are situated there during normal day time, it is appropriate for the Government to have built that many MRT stations around.
+
+![](images/MRT%20Comparison.jpg)
+
+Comparing both figures, the area circled in blue suggests that the Junior College that does not MRT within the 1 km buffer region is merged together with another school that has a closer MRT station. However, on the other hand, the regions circled in red seem to show that even if there is a MRT station within the 1 km buffer region, schools are still forced to be merged. This suggests a potential that the reason for certain schools being selected to be closed could be due to other factors such as availability of school resources.
+
+## 4. Comparison Feature: Walking Distance
+
+This is a picture of Anderson Serangoon Junior College within 1 kilometre walking radius with a walking speed of 5m/s. There is also the fastest walking path of 6.3 minutes of walking time from the school to Yio Chu Kang MRT station.
+
+![](images/Anderson%20JC.jpg)
