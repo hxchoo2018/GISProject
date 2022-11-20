@@ -33,7 +33,7 @@ Hence, our project aims to discover how the closure or merger of Junior Colleges
 ## Data Sources
 
 | Data Name                             | Data Format                                 | Source                                                               |
-|--------------------|------------------|-----------------------------------|
+|---------------------------------------|---------------------------------------------|----------------------------------------------------------------------|
 | MP14_Subzone_No_Sea_PL                | ESRI Shapefile                              | https://data.gov.sg/dataset/master-plan-2014-subzone-boundary-no-sea |
 | General-Information-Of-Schools        | Microsoft Excel Comma Separated Values File | https://data.gov.sg/dataset/school-directory-and-information         |
 | Lta-Mrt-Station-Exit                  | KML File                                    | https://data.gov.sg/dataset/lta-mrt-station-exit                     |

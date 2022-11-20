@@ -160,14 +160,14 @@ ul.task-list li input[type="checkbox"] {
 <h1>Methodology</h1>
 <section id="calculation-using-origin-destination-matrix-od-matrix" class="level2">
 <h2 class="anchored" data-anchor-id="calculation-using-origin-destination-matrix-od-matrix">1. Calculation using Origin-Destination Matrix (OD-Matrix)</h2>
-<p>First we extract MasterPlan 14 Subzone (no sea) and export it into a GeoPackage. We also add in the education layer, after filtering Junior Colleges, Mixed Levels and Institutions, using the 'filter by expression' function into QGIS and export this layer to GeoPackage.</p>
+<p>First we extract MasterPlan 14 Subzone (no sea) and export it into a GeoPackage. We also add in the education layer, after filtering Junior Colleges, Mixed Levels and Institutions, using the ‘filter by expression’ function into QGIS and export this layer to GeoPackage.</p>
 <p>The roads layer from the OSM data is also added onto the panel. The roads layer is then clipped together with MasterPlan 14, to get roads that are within Singapore. This newly created clipped layer is then exported as GeoPackage.</p>
-<p>A hexagon layer, with the shape of MasterPlan 14 is also created using the 'Create Grids' function. The hexagon is then computed as a hexagon centroid so as to 'convert' the polygon feature into a point feature which could then be runned by QNEAT3 for network analysis.</p>
+<p>A hexagon layer, with the shape of MasterPlan 14 is also created using the ‘Create Grids’ function. The hexagon is then computed as a hexagon centroid so as to ‘convert’ the polygon feature into a point feature which could then be runned by QNEAT3 for network analysis.</p>
 <p>After using QNEAT3 for accessibility analysis, we would obtain an Output OD Matrix which shows the shortest path which is then categorised by a choropleth map.</p>
 </section>
 <section id="calculation-on-number-of-nearest-bus-stops-lrt-and-mrt-station-within-1km-buffer-region" class="level2">
 <h2 class="anchored" data-anchor-id="calculation-on-number-of-nearest-bus-stops-lrt-and-mrt-station-within-1km-buffer-region">2. Calculation on number of nearest bus stops, LRT and MRT station within 1km buffer region</h2>
-<p>A dissolved buffer region of 1 km with locations of Junior Colleges being the centre of the buffer region, using the 'buffer' function and exported as GeoPackage.</p>
+<p>A dissolved buffer region of 1 km with locations of Junior Colleges being the centre of the buffer region, using the ‘buffer’ function and exported as GeoPackage.</p>
 <p>For bus stops, we would use the transport layer under OSM data, clip to filter transports within Singapore and further filter for bus stops. Lastly, to filter those bus stops within the 1 km buffer region.</p>
 <p>Clip the LRT and MRT Exit (downloaded from data.gov) layer with the 1 km buffer region to get MRT and LRT stations within the 1 km buffer region.</p>
 </section>
@@ -200,7 +200,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="managing-the-imported-data" class="level3">
 <h3 class="anchored" data-anchor-id="managing-the-imported-data"><strong>2.1.2 Managing the Imported Data</strong></h3>
 <ol type="1">
-<li><p>Create a new project folder called "Subtheme1" and create a new sub-folder called data.gov</p></li>
+<li><p>Create a new project folder called “Subtheme1” and create a new sub-folder called data.gov</p></li>
 <li><p>Unzip the newly downloaded data and place them into the sub-folder</p></li>
 <li><p>Create another sub-folder called GeoPackage</p>
 <ul>
@@ -224,7 +224,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="preparing-the-base-layer-for-the-study-area"><strong>2.2.2 Preparing the base layer for the study area</strong></h3>
 <ol type="1">
 <li><p>Click on Layer &gt;Add Vector Layer&nbsp;</p></li>
-<li><p>Click on "..."&nbsp;</p></li>
+<li><p>Click on “...”&nbsp;</p></li>
 <li><p>Select the downloaded URA_MP14_SUBZONE_NO_SEA_PL shapefile from Subtheme1 folder<br>
 </p></li>
 </ol>
@@ -246,7 +246,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="preparing-the-merged-education-institutions-mixedjunior-college-layer"><strong>2.2.3 Preparing the merged education institutions (mixed/junior college) layer</strong></h3>
 <ol type="1">
 <li><p>Click on Layer &gt;Add Delimited Layer&nbsp;</p></li>
-<li><p>Click on "..."&nbsp;</p></li>
+<li><p>Click on “...”&nbsp;</p></li>
 <li><p>Select the downloaded general-information-of-schools from Subtheme1 folder<br>
 </p></li>
 </ol>
@@ -257,7 +257,7 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Select attribute table</p></li>
 <li><p>Click on Select By Expression and a dialog window will appear</p></li>
 <li><p>Double click on Fields and Values and select mainlevel_code</p></li>
-<li><p>Click on the "=" operator on the bottom left of the expression box</p></li>
+<li><p>Click on the “=” operator on the bottom left of the expression box</p></li>
 <li><p>Click on All Unique &nbsp;and scroll down to select Mixed Levels</p></li>
 <li><p>Manually type in OR and repeat steps 4-6 for Centralised Institute and&nbsp; Junior College</p></li>
 <li><p>Click on Select Features and close the dialog window</p></li>
@@ -295,11 +295,11 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Select attribute table</p></li>
 <li><p>Click on Select By Expression and a dialog window will appear</p></li>
 <li><p>Double click on Fields and Values and select school_name</p></li>
-<li><p>Click on the "=" operator on the bottom left of the expression box</p></li>
+<li><p>Click on the “=” operator on the bottom left of the expression box</p></li>
 <li><p>Click on All Unique &nbsp;and scroll down to select Maris Stella High School</p></li>
 <li><p>Manually type in OR and repeat steps 4-6 for both Catholic High School and CHIJ St.&nbsp;Nicholas Girls School</p></li>
 <li><p>Click on Select Features and close the dialog window</p></li>
-<li><p>Click on <img src="https://lh4.googleusercontent.com/J4xnPsbkmz8oBGnolemXjkoz7mNn6vfmBOPuqCQRvTREGW_1_M9ZbokBivEHq4SVGm_yrNoO5B9onK_UKdQFRR1KDqcENohMGnsHGYLMSDeuWKgpp_BClC3lva-FZPjtaToq7qlGZ081I3Z_4VBMC9aDSdcz0zWeA1dQWC_AnFNC9KgHU8pJg37S5tsNrw.png" class="img-fluid"> to invert the selection and close the attribute table<br>
+<li><p>Click on <img src="images/invert.jpg" width="24" height="28"> to invert the selection and close the attribute table<br>
 </p></li>
 </ol>
 <p>* Notice that only 22/25 of the features are being selected<br>
@@ -327,7 +327,7 @@ ul.task-list li input[type="checkbox"] {
 <h4 class="anchored" data-anchor-id="extracting-and-preparing-road-network-layer"><strong>2.2.4.1 Extracting and Preparing Road Network Layer</strong></h4>
 <ol type="1">
 <li><p>Click on Layer &gt;Add Vector Layer&nbsp;</p></li>
-<li><p>Click on "..."&nbsp;</p></li>
+<li><p>Click on “...”&nbsp;</p></li>
 <li><p>Select the downloaded gis_osm_roads_free_1 shapefile from Subtheme1 folder<br>
 </p></li>
 </ol>
@@ -360,11 +360,12 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Select attribute table</p></li>
 <li><p>Click on Select By Expression and a dialog window will appear</p></li>
 <li><p>Double click on Fields and Values and select fclass</p></li>
-<li><p>Click on the "=" operator on the bottom left of the expression box</p></li>
+<li><p>Click on the “=” operator on the bottom left of the expression box</p></li>
 <li><p>Click on All Unique &nbsp;and scroll down to select motorway</p></li>
-<li><p>Manually type in OR and repeat steps 4-6 for motorway_link, primary, primary_link, secondary, secondary_link, tertiary, tertiary_link, residential, trunk and trunk_link</p></li>
+<li><p>Manually type in OR and repeat steps 4-6 for motorway_link, primary, primary_link, secondary, secondary_link, tertiary, tertiary_link, residential, trunk and trunk_link</p>
+<p><img src="images/formula.jpg" class="img-fluid"></p></li>
 </ol>
-<p><img src="https://lh5.googleusercontent.com/ZE3VL1xLfF8NqNE93OZ2aQeVqGtd0OGtDe-j_EkR7EnWBVk8_vYv4uJUXc0EwJcka61eRUh2jV-O99rYA7-mxRKrogwCRN8pNt4nDeDJtP1H3fpjE8XrFlSqYEpYkKbI0AnMMWw9UVUv3k76_SO1UOWm6mkW5oCoZEnM8DJcOGXyWjCqKNQBnxSFN6dkKg.png" class="img-fluid"></p>
+<!-- -->
 <ol start="8" type="1">
 <li>Click on Select Features and close the dialog window</li>
 </ol>
@@ -428,7 +429,7 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Remove the Clipper virtual layer, Grid layers from the Layer Panel</p></li>
 </ol>
 <p>Your screen should look something similar to this.</p>
-<p><img src="https://lh6.googleusercontent.com/eLC6XiK6TFDSd9axS59n3C2LcDyUv1siXCBu6_MyMxgVhY1lLA06D-rDb1TdZYjp73f35EL6xmlXo9WJSgB3z5Cml7-LzM3gcmjuuaVcF3HdUUn_VMCtQ7JAXex8K5J6eS1xkYijiuU8HTyMv6rX8mvy4vy2yn9b6puImqvgGdSu49S8uv6UGLePpNi14w.png" class="img-fluid"></p>
+<p><img src="images/Clipped%20layer.jpg" class="img-fluid"></p>
 <p>In general, network analysis required the demand in a point feature. Hexagon, on the other hand, is a polygon feature. As such, we would have to compute the centroids of the hexagon.</p>
 </section>
 </section>
@@ -447,7 +448,7 @@ ul.task-list li input[type="checkbox"] {
 <p>* Notice that a new temporary layer called Centroid is added onto the Layers panel and displayed on Map view.<br>
 </p>
 <p>Your screen should looks similar to this</p>
-<p><img src="https://lh3.googleusercontent.com/tcX91ffRljCaPBzx47F70iZ40A5aZ4gnr6LvGeQ6emrMik_PtjFMnOaMCrHCCHcCpkP5rwyjciboLM2U8_dQ024K9TlMFZI9pU2k7VisgWhcNRMTNbhRu4Ejj3KfP8zJ58UclGph5E2dKUyTLHYk706sE2l7Ra7OZ7yuLK2qUa243Rx9J7-EWLMjF_6ZPg.png" class="img-fluid"></p>
+<p><img src="images/centroid.jpg" class="img-fluid"></p>
 <section id="saving-the-centroid-layer" class="level4">
 <h4 class="anchored" data-anchor-id="saving-the-centroid-layer"><strong>2.2.6.1 Saving the Centroid Layer</strong></h4>
 <ol type="1">
@@ -459,7 +460,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="accessibility-analysis" class="level2">
 <h2 class="anchored" data-anchor-id="accessibility-analysis"><strong>2.3 Accessibility Analysis</strong></h2>
-<pre><code>This section, we will be performing network accessibility analysis by using QGIS Network Analysis Toolbox (QNEAT3) Plugin</code></pre>
+<p>This section, we will be performing network accessibility analysis by using QGIS Network Analysis Toolbox (QNEAT3) Plugin</p>
 <section id="installing-qneat3-plugin" class="level3">
 <h3 class="anchored" data-anchor-id="installing-qneat3-plugin"><strong>2.3.1 Installing QNEAT3 Plugin</strong></h3>
 <ol type="1">
@@ -528,7 +529,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="mapping-accessibility-values" class="level3">
 <h3 class="anchored" data-anchor-id="mapping-accessibility-values"><strong>2.3.4 Mapping Accessibility Values</strong></h3>
-<pre><code>Use the mapping function of QGIS to show the distribution of accessibility to Junior College</code></pre>
+<p>Use the mapping function of QGIS to show the distribution of accessibility to Junior College</p>
 <section id="creating-a-duplicate-layer" class="level4">
 <h4 class="anchored" data-anchor-id="creating-a-duplicate-layer"><strong>2.3.4.1 Creating a Duplicate layer</strong></h4>
 <ol type="1">
@@ -571,7 +572,7 @@ ul.task-list li input[type="checkbox"] {
 </p></li>
 </ol>
 <p>The choropleth map should like something like this.</p>
-<p><img src="https://lh6.googleusercontent.com/Nd0x85X1oxP_rnC8VJwOlt_cVYPaT5A_a_Oi6AyvdJvsCfbr3eK23cxbWPwQBG0LejMeV9lReuU_Zfh9CNLS-WbydEnGSjMGrYKhq3U5Q51tvXEGhnCSakGfMfVaE63WF8U2m5uXgxuUdCTZmHo_mKoKbdmQneaLgJa1f02078u2IhVBlHW_FqrRkyixTA.png" class="img-fluid"><br>
+<p><img src="images/cloropleth.jpg" class="img-fluid"><br>
 </p>
 </section>
 </section>
@@ -606,12 +607,12 @@ ul.task-list li input[type="checkbox"] {
 <h4 class="anchored" data-anchor-id="filtering-bus-stops"><strong>2.5.2.1 Filtering bus stops</strong></h4>
 <ol type="1">
 <li><p>Click on <strong>Layer &gt;Add Vector Layer</strong></p></li>
-<li><p>Click on <strong>"..."</strong></p></li>
+<li><p>Click on <strong>“...”</strong></p></li>
 <li><p>Select the downloaded <strong>gis_osm_transport_a_free_1</strong> &nbsp;from Subtheme1 folder</p></li>
 <li><p>Select <strong>attribute table</strong></p></li>
 <li><p>Click on <strong>Select By Expression</strong> and a dialog window will appear</p></li>
 <li><p>Double click on Fields and Values and select <strong>fclass</strong></p></li>
-<li><p>Click on the <strong>"="</strong> operator on the bottom left of the expression box</p></li>
+<li><p>Click on the <strong>“=”</strong> operator on the bottom left of the expression box</p></li>
 <li><p>Click on All Unique&nbsp; and scroll down to select <strong>bus</strong></p></li>
 <li><p>Click on Select Features and close the dialog window</p></li>
 </ol>
@@ -649,9 +650,9 @@ ul.task-list li input[type="checkbox"] {
 <h4 class="anchored" data-anchor-id="importing-mrt-and-lrt-data"><strong>2.5.3.1 Importing MRT and LRT data</strong></h4>
 <ol type="1">
 <li><p>Click on Layer &gt;Add Vector Layer&nbsp;</p></li>
-<li><p>Click on "..."&nbsp;</p></li>
+<li><p>Click on “...”&nbsp;</p></li>
 <li><p>Select the downloaded <strong>lta-mrt-station-exit</strong> from Subtheme1 folder</p></li>
-<li><p>Remove extra fields and only keep "fid", "STATION_NA" and "EXIT_CODE"</p></li>
+<li><p>Remove extra fields and only keep “fid”, “STATION_NA” and “EXIT_CODE”</p></li>
 <li><p>Save the layer as GeoPackage and call the data layer <strong>SG – MRT STATIONS</strong><br>
 </p></li>
 </ol>

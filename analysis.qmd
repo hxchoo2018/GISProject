@@ -40,7 +40,7 @@ As such we can conclude that the merger of Junior Colleges does not really have 
 
 ### c. Analysis and Comparison
 
-It could be seen that all Junior Colleges have at least one or more bus stops within the 1 km buffer. Since it is noted that accessibility is closely related with the economic and social opportunities as well as development of that area, it is clear that Singapore\'s bus services could be deemed as quite well developed. This is because Singapore\'s bus services have been around since 1925, nearly a century ago.
+It could be seen that all Junior Colleges have at least one or more bus stops within the 1 km buffer. Since it is noted that accessibility is closely related with the economic and social opportunities as well as development of that area, it is clear that Singapore's bus services could be deemed as quite well developed. This is because Singapore's bus services have been around since 1925, nearly a century ago.
 
 ![](images/Bus%20Stops%20Comparison.jpg)
 
@@ -51,6 +51,7 @@ As seen from the region circled in blue and red, before merger, one of the Junio
 ## 3. Comparison Feature: MRT
 
 ### a. Before Merger
+
 ![](images/MRT%20Before%20Merger.jpg){width="566"}
 
 ### b. After Merger
